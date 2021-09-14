@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c46ca4fa-6541-4d56-9b51-e488d056d6ad" data-root-id="157179"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="157416">
+          {"867a793a-df12-44cf-b6b8-ecd1fa5ccbb3":{"roots":{"references":[{"attributes":{"axis":{"id":"157190"},"grid_line_color":null,"ticker":null},"id":"157192","type":"Grid"},{"attributes":{},"id":"157225","type":"Selection"},{"attributes":{},"id":"157188","type":"LinearScale"},{"attributes":{"axis_label":"Finance in $ Billions","formatter":{"id":"157221"},"major_label_text_font_style":"bold","ticker":{"id":"157194"}},"id":"157193","type":"LinearAxis"},{"attributes":{"below":[{"id":"157190"},{"id":"157228"},{"id":"157229"}],"center":[{"id":"157192"},{"id":"157196"},{"id":"157226"}],"left":[{"id":"157193"}],"plot_height":550,"plot_width":750,"renderers":[{"id":"157216"}],"sizing_mode":"scale_both","title":{"id":"157180"},"toolbar":{"id":"157205"},"toolbar_location":"above","x_range":{"id":"157182"},"x_scale":{"id":"157186"},"y_range":{"id":"157184"},"y_scale":{"id":"157188"}},"id":"157179","subtype":"Figure","type":"Plot"},{"attributes":{"end":15000},"id":"157184","type":"Range1d"},{"attributes":{"data_source":{"id":"157178"},"glyph":{"id":"157214"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"157215"},"selection_glyph":null,"view":{"id":"157217"}},"id":"157216","type":"GlyphRenderer"},{"attributes":{"label":{"field":"actor"},"renderers":[{"id":"157216"}]},"id":"157227","type":"LegendItem"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"157197"},{"id":"157198"},{"id":"157199"},{"id":"157200"},{"id":"157201"},{"id":"157202"},{"id":"157204"}]},"id":"157205","type":"Toolbar"},{"attributes":{"formatter":{"id":"157219"},"major_label_text_font_style":"bold","ticker":{"id":"157191"}},"id":"157190","type":"CategoricalAxis"},{"attributes":{"text":"Saudi Aramco, Chevron and Gazprom 2020 annual reports, OECD, The Independent Expert Group on Climate Finance and Forbes","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"157229","type":"Label"},{"attributes":{},"id":"157201","type":"ResetTool"},{"attributes":{"use_scientific":false},"id":"157221","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"157178"}},"id":"157217","type":"CDSView"},{"attributes":{},"id":"157191","type":"CategoricalTicker"},{"attributes":{"text":"Data Sources:","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"157228","type":"Label"},{"attributes":{},"id":"157219","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"157215","type":"VBar"},{"attributes":{},"id":"157224","type":"UnionRenderers"},{"attributes":{},"id":"157186","type":"CategoricalScale"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"157214","type":"VBar"},{"attributes":{"data":{"actor":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"],"color":["#440154","#443982","#30678D","#208F8C","#35B778","#8DD644","#FDE724"],"revenue":[78.9,87.4,94.4,100.0,177.0,229.9,11000.0]},"selected":{"id":"157225"},"selection_policy":{"id":"157224"}},"id":"157178","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"157203"}},"id":"157199","type":"BoxZoomTool"},{"attributes":{},"id":"157200","type":"SaveTool"},{"attributes":{},"id":"157202","type":"HelpTool"},{"attributes":{"items":[{"id":"157227"}],"location":"top_left"},"id":"157226","type":"Legend"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"157203","type":"BoxAnnotation"},{"attributes":{},"id":"157194","type":"BasicTicker"},{"attributes":{"factors":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"]},"id":"157182","type":"FactorRange"},{"attributes":{},"id":"157197","type":"PanTool"},{"attributes":{"text":"How much is $100 Billion?"},"id":"157180","type":"Title"},{"attributes":{},"id":"157198","type":"WheelZoomTool"},{"attributes":{"axis":{"id":"157193"},"dimension":1,"ticker":null},"id":"157196","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["","@actor"],["USD","@revenue{($ 0.00)} bn"]]},"id":"157204","type":"HoverTool"}],"root_ids":["157179"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('157416').textContent;
+                  var render_items = [{"docid":"867a793a-df12-44cf-b6b8-ecd1fa5ccbb3","root_ids":["157179"],"roots":{"157179":"c46ca4fa-6541-4d56-9b51-e488d056d6ad"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
