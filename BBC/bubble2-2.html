@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="7456504f-a93f-4618-88da-eb1d203819b6" data-root-id="190261"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="190458">
+          {"63c5dfa2-0fd7-4ca9-b9cf-29e5812ca4c5":{"roots":{"references":[{"attributes":{"callback":null,"tooltips":[["Country","@country"],["GHG Emissions (kt)","@ghg_lulucf_17{000.00}"],["GDP per Capita","@GDP_pc_18{$ 0.00 a}"]]},"id":"190313","type":"HoverTool"},{"attributes":{"data_source":{"id":"190299"},"glyph":{"id":"190302"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"190303"},"selection_glyph":null,"view":{"id":"190305"}},"id":"190304","type":"GlyphRenderer"},{"attributes":{"format":"0.000"},"id":"190294","type":"NumeralTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":{"id":"190315"},"active_tap":"auto","tools":[{"id":"190280"},{"id":"190281"},{"id":"190282"},{"id":"190283"},{"id":"190284"},{"id":"190285"},{"id":"190313"}]},"id":"190287","type":"Toolbar"},{"attributes":{},"id":"190270","type":"LinearScale"},{"attributes":{"text":"Data Sources: Biennial Reports submitted to the UNFCC, the Worldbank","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"190317","type":"Label"},{"attributes":{"end":300,"start":-10},"id":"190266","type":"Range1d"},{"attributes":{"text":"Note: Total GHG in Kiloton(kt) have been rounded to closest 10.000, to aid the visualisation.","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"190318","type":"Label"},{"attributes":{},"id":"190281","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"190286","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"190276"},"dimension":1,"ticker":null},"id":"190279","type":"Grid"},{"attributes":{"overlay":{"id":"190286"}},"id":"190282","type":"BoxZoomTool"},{"attributes":{"fill_color":{"field":"region","transform":{"id":"190300"}},"line_color":{"field":"region","transform":{"id":"190300"}},"size":{"field":"stand_ghg","units":"screen"},"x":{"field":"GDP_pc_18"},"y":{"field":"stand_ghg"}},"id":"190302","type":"Scatter"},{"attributes":{},"id":"190311","type":"Selection"},{"attributes":{},"id":"190277","type":"BasicTicker"},{"attributes":{},"id":"190273","type":"BasicTicker"},{"attributes":{"factors":["Oceania","Western Europe","North America","Southern Europe","Eastern Europe","Northern Europe","East Asia"],"palette":["#440154","#443982","#30678D","#208F8C","#35B778","#8DD644","#FDE724"]},"id":"190300","type":"CategoricalColorMapper"},{"attributes":{},"id":"190315","type":"WheelZoomTool"},{"attributes":{"axis_label":"Total GHG Emissions","formatter":{"id":"190294"},"ticker":{"id":"190277"}},"id":"190276","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"region","transform":{"id":"190300"}},"line_alpha":{"value":0.1},"line_color":{"field":"region","transform":{"id":"190300"}},"size":{"field":"stand_ghg","units":"screen"},"x":{"field":"GDP_pc_18"},"y":{"field":"stand_ghg"}},"id":"190303","type":"Scatter"},{"attributes":{"label":{"field":"region"},"renderers":[{"id":"190304"}]},"id":"190312","type":"LegendItem"},{"attributes":{},"id":"190284","type":"ResetTool"},{"attributes":{},"id":"190310","type":"UnionRenderers"},{"attributes":{},"id":"190268","type":"LinearScale"},{"attributes":{"source":{"id":"190299"}},"id":"190305","type":"CDSView"},{"attributes":{"below":[{"id":"190272"},{"id":"190317"},{"id":"190318"}],"center":[{"id":"190275"},{"id":"190279"}],"left":[{"id":"190276"}],"renderers":[{"id":"190304"}],"right":[{"id":"190298"}],"sizing_mode":"scale_both","title":{"id":"190262"},"toolbar":{"id":"190287"},"toolbar_location":"left","x_range":{"id":"190264"},"x_scale":{"id":"190268"},"y_range":{"id":"190266"},"y_scale":{"id":"190270"}},"id":"190261","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"GDP per Capita","formatter":{"id":"190296"},"ticker":{"id":"190273"}},"id":"190272","type":"LinearAxis"},{"attributes":{"end":100000,"start":-25000},"id":"190264","type":"Range1d"},{"attributes":{"axis":{"id":"190272"},"ticker":null},"id":"190275","type":"Grid"},{"attributes":{},"id":"190283","type":"SaveTool"},{"attributes":{"data":{"GDP_pc_18":{"__ndarray__":"LIcW2V4B7EARWDm0pB/pQFpkO99XOOdAne+nxteu5kAUrkfhClPNQBsv3SReaNxAd76fGu/e1kC/nxov0RPuQAMrhxbZndZAIbByaKlr6EB7FK5HzUbkQNR46SZlVedANV66SQxD0UBjEFg53AbQQBODwMrFJvJAbef7qRtc80CDwMqhFebgQLByaJHtHuNAne+nxmNu0UAW2c73s7fSQPp+arxUd/xAnMQgsBL03UBaZDvf1LMGQaabxCBU4+lA16NwPUIl5UDo+6nxvBX0QAisHFo0Ns5AjZduEsP/1kBWDi2yfTfIQArXo3CtC8ZA4XoUrifp0kBOYhBYoandQLgeheuhp+pAdJMYBNgZ9UBANV66Gf7kQA==","dtype":"float64","order":"little","shape":[35]},"GDP_pc_18_stand":{"__ndarray__":"jk3h9yXxFkAgg3BgzZQUQLHVLyKbBRNAS6IDN/eUEkCP+1brxAX4PzNaog6GRQdAWsOgp1y8AkARlDawsKMYQPsxnCELhwJA3ReGflwBFECuDKoNTpwQQIN52cBnHRNAxoH8EStI/D+pX9hQIEL6P7p3aLNFvR1ADdQYYxa4H0C/SS5a268LQHMo6JvZUw9A/9X06i2P/D+Cuu3nuar+PwVoABTIUSdAobB6dq+JCECgDnVpDZkyQLyATYwbNRVAj1AzpIpSEUAEt0mgHHQgQOPXWT7cv/g/kTh1L0HXAkCF6LV+n9bzP+pYpfRMD/I/5SX/k7/7/j8JVcWvs0wIQLHAV3Tr1RVAe+towTBJIUDQVamPdjIRQA==","dtype":"float64","order":"little","shape":[35]},"adaptation_multi":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAD0K1zvGTHFBAAAAgPOlN0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsUbi+yyx8QQAAAAAAAAAA7FG4fr7oQkFI4XqQRxqLQQAAAPhQWKNBAAAAAAAAAAAAAAAAAAAAAAAAAAAmegBBPQrXw602QEEAAADAw4ZfQT0K1yOLPSJBAAAAAAAAAAAAAAAAAAAAAOxRuO4/zHFBAAAAAAAAAAAAAAAAAAAAANejcF2ka15BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASOF6FE5i+EAAAAAAAVw4QQrXoxDgFnlBAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","order":"little","shape":[35]},"adaptation_total":{"__ndarray__":"AAAAQPnGbUHsUbiyJhB/QdejcM0DD5FB4XoUcJMnjkEAAAAAAAAAAAAAAAAAAAAAAAAAgGpIUkGPwvVILIyPQbgeheshCOJAUrgexaxCVEFmZpZzcWXSQcP1WDKU69ZBAAAAAAAAAAD2KFxvXBNJQQrXo9ihX2NB16NwxYvxY0EfhetPTsyXQVK4Hgo8HNRBAAAAAAAAAAAAAAAAAAAAAI/C9XCiO4NBAAAAAAAAAABSuB5l+OdAQSlcDzP0PKlBAAAAALT5cEHD9Sjuit+GQa5H4XxhxYlBw/UonNcpNEEAAAAAAAAAAAAAAAAAAAAA16NwvVytO0EAAAAAyuSJQVyPQlXs7K9BMzOzr8gnoEEAAACA90KNQQ==","dtype":"float64","order":"little","shape":[35]},"core_multi":{"__ndarray__":"AAAA4h0ou0EAAAAAAAAAAOxReHHDdLVBMzOzsKCxoEHXo3A9gjbgQK5H4XqpkxxBAAAAwOKVW0EfhWuh+NauQRSuR+FUHBtBSOH6wprgwkGPwsUu1sPXQcP1CFz9EMtBAAAAAAAAAAAUrkdh9GEvQfYoXBe/WmFBuB6FK3EoSUEAAADANQ7BQcP1mJ1i+dpBAAAAAAAAAACPwvUoyig2QXE9Cle0CC9BAAAAAAAAAABI4XqUtUkyQQAAAAAAAAAAAAAAgKNWjEEzMzPf6/SeQVK4HgVm6oFBj8L1Pr0Yg0HXo3D99SpVQQAAAIDfq0NBFK5H4etFGkEAAAAAAAAAAI/C9e3dGr5BAAAAFJu2u0EAAABgdeCyQQ==","dtype":"float64","order":"little","shape":[35]},"core_total":{"__ndarray__":"AAAA4h0ou0EAAAAAAAAAAOxReHHDdLVBMzOzsKCxoEHXo3A9gjbgQK5H4XqpkxxBAAAAwOKVW0EfhWuh+NauQRSuR+FUHBtBSOH6wprgwkGPwsUu1sPXQcP1CFz9EMtBAAAAAAAAAAAUrkdh9GEvQfYoXBe/WmFBuB6FK3EoSUEAAADANQ7BQcP1mJ1i+dpBAAAAAAAAAACPwvUoyig2QXE9Cle0CC9BAAAAAAAAAABI4XqUtUkyQQAAAAAAAAAAAAAAgKNWjEEzMzPf6/SeQVK4HgVm6oFBj8L1Pr0Yg0HXo3D99SpVQQAAAIDfq0NBFK5H4etFGkEAAAAAAAAAAI/C9e3dGr5BAAAAfWTV5EEAAABgdeCyQQ==","dtype":"float64","order":"little","shape":[35]},"country":["Australia","Austria","Belgium","Canada","Croatia","Cyprus","Czechia ","Denmark","Estonia","Finland","France","Germany","Greece","Hungary","Iceland","Ireland","Italy","Japan","Latvia","Lithuania","Luxembourg","Malta","Monaco","Netherlands","New Zealand","Norway","Poland","Portugal","Romania","Russia","Slovakia","Spain","Sweden","Switzerland","United Kingdom"],"cross_cutting_multi":{"__ndarray__":"AAAA9EFeoUEUrkfNQZWOQa5H4Xp6FwZBzczMdiuyhUEAAAAAAAAAAAAAAAAAAAAAAAAAACsoMkHD9ShMqj1tQYXrUbhetMpArkfh3kw/cUFI4brKEBXCQXE9CvqXUKhBSOF6VIT2UEEAAAAAAAAAAClcjwLehkJBXI/Czfv9cEF7FC5ebKerQWZmZu3WLqVBAAAAAAAAAADNzMzMTLD8QD0K1w/21I5BAAAAAAAK+0AAAAAAAAAAAAAAgPCCGatBAAAAAAAX8UAAAAAAAAAAAPYoXO8gIUtBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8XO2dQZqZGdR2jqJBAAAATM25mkEAAAAAqaR7QQ==","dtype":"float64","order":"little","shape":[35]},"cross_cutting_total":{"__ndarray__":"AAAAxGaBrUEfhespYqOSQZqZmSFe4W9B9ijcPBgpqUEAAAAAAAAAAAAAAAAAAAAAAAAAALw4P0E9Ctc6QLuRQXE9Cle0UypBj8L1oiy5gEF7FK6ifw/cQSlc3/Z6xdlBrkfh+lP3UEFSuB6FNQwNQXsUrsegPFVBPQrXn0sBk0G4HsXvhpO2QY/C9Tl5N7pBmpmZmam95kDNzMzMTLD8QPYoXKxDdZJBAAAAAAAK+0DNzMzMfYMVQT0K157nk7VBAAAAAMiKa0EK16Nu+4yMQR+F6xF2Yk1BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmlY+pQY/CNZHgvLFBXI/CbY+5oUEAAAAAMiB8QQ==","dtype":"float64","order":"little","shape":[35]},"ghg_17":{"__ndarray__":"7FG4Hh3pIEFSuB6FVxX0QGZmZma+9vtAXI/CdcrXJUEAAAAA8G7YQIXrUbiegcFAzczMzDBq/0A9CtejcD/nQB+F61H4Y9RAj8L1KMQE60ApXI/C0L8cQbgehevmqitBrkfhesxL90D2KFyPciXvQK5H4XrUnbJAw/UoXPeo7UBmZmZm7xoaQUjhepSerTNBmpmZmRkVxkCPwvUofDjUQJqZmZnZ/cNASOF6FC7PoEBmZmZmZrZVQMP1KFxflwdBUrgehVe980B7FK5HEb3pQJqZmZlVQRlBzczMzCQ58UBSuB6Ft4j8QFyPwlXncUBBZmZmZo4m5UBSuB6FG8QUQT0K16OItulAhetRuN4G50CuR+F6qPMcQQ==","dtype":"float64","order":"little","shape":[35]},"ghg_lulucf_17":{"__ndarray__":"ZmZm5k5RIEGF61G4tuLyQHE9CteH5vtASOF6FHUeJUEUrkfhSsfTQArXo3CddsBAKVyPwsHk/kD2KFyPwrLoQFyPwvXIo9JA7FG4Ho0R4UA9Ctej8dEaQQAAAIBENCtBpHA9CjuD9kBSuB6Fk33sQEjhehROg8tAcT0K109L8EBxPQrXw/sYQVK4HsUszTJBzczMzKy/wkBxPQrXwxjOQHE9CtejNMNAFK5H4XrWoEBmZmZmZrZVQAAAAABgRghBPQrXo+DH60DsUbgeZRLbQKRwPQp9MBdB4XoUrgv98kCkcD0Ktz33QFK4HgUnEzhBuB6F64Hv4UDXo3A9PG0SQdejcD1qcsFAj8L1KCw/5kApXI/CFVkcQQ==","dtype":"float64","order":"little","shape":[35]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34],"mitigation_multi":{"__ndarray__":"AAAAAAAAAACamZkZb/Y7QQAAAIBNiDRBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADD9SjEE4xvQRSuR+FqdflAzczMLIi6TkFI4XoSs66IQQAAAIyzQpVBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0K1+NbR3dBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJqZmXmYfkxBAAAAAAC9L0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZmZmZiTGHUEAAABA66tbQexRuD7qjkVBAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","order":"little","shape":[35]},"mitigation_total":{"__ndarray__":"AAAAAAAAAAAUrsdrfXWkQY/C9ejclVpBcT0KKY1WpEEAAAAAAAAAAAAAAAAAAAAAAAAAANhJOUGPwvWWMieWQaRwPQpF1AxBzczMdBzYa0FxPdLd2IjlQZqZ+SGpc+9BAAAAAAAAAAD2KFyP0s/9QFK4HuVVCE1BSOF6FM1CLkFmZmZuljyKQRSuW6vMMwFCAAAAAAAAAAAAAAAAAAAAAM3MzCTq3GVBAAAAAAAAAAC4HoXrck4XQY/C9b0mMJNBAAAAAKqtZkEAAKAloaDFQRSuR+FaDh1BMzMzM7fQIkEAAAAAAAAAAAAAAAAAAAAAj8L1KAM9JUEAAABc7B7AQT0K17iobZxBH4VrX/cPpEEAAACA7vmOQQ==","dtype":"float64","order":"little","shape":[35]},"other_multi":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAArXo3A9KNlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxPQrXI1jjQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","order":"little","shape":[35]},"other_total":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAArXo3A9KNlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABI4XoU/jXxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxPQrXI1jjQAAAAAAKgS5BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","order":"little","shape":[35]},"per_capita":{"__ndarray__":"yfTIVxNnNUCBsOXEDIAhQKHoNCFyACRAze6w5KerMkAvuFRcZdETQEfjwpHjWRxAvPln7urOJ0Ay1JXbFHYhQJxwpsVs4CxAXOV2ve1ZGUD8HDievTEaQMpAwfMqgSVAJy1iutouIUB1LW0aE+AXQJmGttHu90NAbe8oxZRsK0BmvWEbHhkbQJvferH8eSNAvioxXZjsE0ByxkKkYQAWQOypbT+rLDBAE3PpQuvJEUA+vgdTO/YBQH/XDpOwFCdAMd9Anjg4J0AyqyToAOAUQEMkdBCIAiRAcmqNxIdAHkDYyJO4qY0TQGtS4u5x2CVAkYAlwqz5GkDQ9UJOziBQQFCWt7nDF+w/bphsG37BSkBoImnoJvQbQA==","dtype":"float64","order":"little","shape":[35]},"population":[24982688,8840521,11427054,37065178,4087843,1189262,10629928,5793636,1321977,5515525,67101685,82905782,10732882,9775564,352721,4867316,60421760,126529100,1927174,2801543,607950,484630,38682,17231624,4900600,5311916,37974750,10283822,19473970,144447859,5446771,4679754,10175214,851429,66460344],"region":["Oceania","Western Europe","Western Europe","North America","Southern Europe","Southern Europe","Eastern Europe","Northern Europe","Northern Europe","Northern Europe","Western Europe","Western Europe","Southern Europe","Eastern Europe","Northern Europe","Western Europe","Southern Europe","East Asia","Northern Europe","Northern Europe","Western Europe","Southern Europe","Southern Europe","Western Europe","Oceania","Northern Europe","Northern Europe","Southern Europe","Eastern Europe","Eastern Europe","Eastern Europe","Southern Europe","Northern Europe","Western Europe","Northern Europe"],"stand_ghg":{"__ndarray__":"CoDxDBq8SkB1VgvsMfEeQMcrED0p2yZA1Zl7SPhMUUA9Qzhm2TMAQIl6wac5+eo/0nKgh9pOKUBYdsHgmjsUQHGt9rAXiv4/M3TsoBL3C0DdPqvMlPhFQOOlm8QgSVZALscrED1xIkDM0k7N5VYXQBdp4h3gifY/sxAdAkeyGkDcSNkiaXdEQBJLyt3nzV5A8iTpmsm37j/4xDpVvqf4P/+2J0hsd+8/tWXAWUqWyz9h4Ln3cMmBP4lBYOXQ4jNAOxvyzwzCFkAWwmosYS0GQOTcJtwr/0JAx+2XT1YcH0CCqtGrAQojQJwXJ77auGNAj8TL07liDUCKO97ktzA+QB1U4jrGlew/W0BoPXw5EkAjvD0IATlHQA==","dtype":"float64","order":"little","shape":[35]},"total_support":{"__ndarray__":"AAAAh4RrxUFxPYqrmdSwQUjhempLIrtBFK6nvMpuwUHXo3A9gjbgQK5H4XqpkxxBAAAAIHn/bUEUrkeOnlW9QUjhehS5GzhBFa6HWBOExEEVritAnlL8QQAAzAY4SP9Brkfh+lP3UEGkcD26jdVRQSlcj2ZjTXtBcD0KPEaFlkEzM2M0pnrQQepRIko86AdCmpmZmam95kBcj8L1zvM3QVK4HpLDDJ9BAAAAAAAK+0C5HoWbYBhQQXoU7rM1f8NBAAAAAM2wmEEzM1MHB7bMQdejcMwF4JZBCtej2E4FhEFSuB5FplFVQQAAAAAiTEtBUrgepaxuRkEAAIBFHiHIQdejALZnutFBexTOdHk06EEAAABAFSq8QQ==","dtype":"float64","order":"little","shape":[35]}},"selected":{"id":"190311"},"selection_policy":{"id":"190310"}},"id":"190299","type":"ColumnDataSource"},{"attributes":{"text":"Annex 1 countries, GHG emissions"},"id":"190262","type":"Title"},{"attributes":{},"id":"190285","type":"HelpTool"},{"attributes":{"format":"0.000"},"id":"190296","type":"NumeralTickFormatter"},{"attributes":{"items":[{"id":"190312"}]},"id":"190298","type":"Legend"},{"attributes":{},"id":"190280","type":"PanTool"}],"root_ids":["190261"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('190458').textContent;
+                  var render_items = [{"docid":"63c5dfa2-0fd7-4ca9-b9cf-29e5812ca4c5","root_ids":["190261"],"roots":{"190261":"7456504f-a93f-4618-88da-eb1d203819b6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
