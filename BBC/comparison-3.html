@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ecfeeff5-50a0-4f78-99f8-3f1204359393" data-root-id="188173"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="188417">
+          {"aff56cc6-2ffb-416f-b010-4eecbb6492be":{"roots":{"references":[{"attributes":{},"id":"188188","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"188210","type":"VBar"},{"attributes":{},"id":"188180","type":"CategoricalScale"},{"attributes":{"axis":{"id":"188184"},"grid_line_color":null,"ticker":null},"id":"188186","type":"Grid"},{"attributes":{"text":"How much is $100 Billion?"},"id":"188174","type":"Title"},{"attributes":{"data_source":{"id":"188172"},"glyph":{"id":"188209"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"188210"},"selection_glyph":null,"view":{"id":"188212"}},"id":"188211","type":"GlyphRenderer"},{"attributes":{"callback":null,"tooltips":[["","@actor"],["USD","@revenue{($ 0.00)} bn"]]},"id":"188198","type":"HoverTool"},{"attributes":{"text":"The Independent Expert Group on Climate Finance and Forbes","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"188230","type":"Label"},{"attributes":{"factors":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"]},"id":"188176","type":"FactorRange"},{"attributes":{"overlay":{"id":"188197"}},"id":"188193","type":"BoxZoomTool"},{"attributes":{"source":{"id":"188172"}},"id":"188212","type":"CDSView"},{"attributes":{"index":6,"label":{"value":"COVID-19 Response"},"renderers":[{"id":"188211"}]},"id":"188221","type":"LegendItem"},{"attributes":{},"id":"188191","type":"PanTool"},{"attributes":{},"id":"188194","type":"SaveTool"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"188209","type":"VBar"},{"attributes":{},"id":"188182","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"188191"},{"id":"188192"},{"id":"188193"},{"id":"188194"},{"id":"188195"},{"id":"188196"},{"id":"188198"}]},"id":"188199","type":"Toolbar"},{"attributes":{"index":5,"label":{"value":"Saudi Aramco"},"renderers":[{"id":"188211"}]},"id":"188227","type":"LegendItem"},{"attributes":{},"id":"188185","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"188214"},"major_label_orientation":45,"major_label_text_font_style":"bold","ticker":{"id":"188185"}},"id":"188184","type":"CategoricalAxis"},{"attributes":{"index":4,"label":{"value":"Jeff Bezos"},"renderers":[{"id":"188211"}]},"id":"188226","type":"LegendItem"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"188197","type":"BoxAnnotation"},{"attributes":{"items":[{"id":"188221"},{"id":"188222"},{"id":"188223"},{"id":"188224"},{"id":"188225"},{"id":"188226"},{"id":"188227"}]},"id":"188207","type":"Legend"},{"attributes":{"end":15000,"start":-2000},"id":"188178","type":"Range1d"},{"attributes":{"index":3,"label":{"value":"Climate Finance Goal"},"renderers":[{"id":"188211"}]},"id":"188224","type":"LegendItem"},{"attributes":{},"id":"188220","type":"Selection"},{"attributes":{"data":{"actor":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"],"color":["#440154","#443982","#30678D","#208F8C","#35B778","#8DD644","#FDE724"],"revenue":[78.9,87.4,94.4,100.0,177.0,229.9,11000.0]},"selected":{"id":"188220"},"selection_policy":{"id":"188219"}},"id":"188172","type":"ColumnDataSource"},{"attributes":{},"id":"188192","type":"WheelZoomTool"},{"attributes":{"text":"Saudi Aramco, Chevron and Gazprom 2020 annual reports, OECD,","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"188229","type":"Label"},{"attributes":{"index":2,"label":{"value":"Chevron"},"renderers":[{"id":"188211"}]},"id":"188222","type":"LegendItem"},{"attributes":{"index":0,"label":{"value":"Climate Finance 2018"},"renderers":[{"id":"188211"}]},"id":"188223","type":"LegendItem"},{"attributes":{"index":1,"label":{"value":"Gazprom"},"renderers":[{"id":"188211"}]},"id":"188225","type":"LegendItem"},{"attributes":{"below":[{"id":"188184"},{"id":"188228"},{"id":"188229"},{"id":"188230"}],"center":[{"id":"188186"},{"id":"188190"}],"left":[{"id":"188187"}],"renderers":[{"id":"188211"}],"right":[{"id":"188207"}],"sizing_mode":"scale_both","title":{"id":"188174"},"toolbar":{"id":"188199"},"toolbar_location":"below","x_range":{"id":"188176"},"x_scale":{"id":"188180"},"y_range":{"id":"188178"},"y_scale":{"id":"188182"}},"id":"188173","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"188219","type":"UnionRenderers"},{"attributes":{},"id":"188196","type":"HelpTool"},{"attributes":{},"id":"188214","type":"CategoricalTickFormatter"},{"attributes":{"text":"Data Sources:","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"188228","type":"Label"},{"attributes":{},"id":"188195","type":"ResetTool"},{"attributes":{"axis_label":"Finance in $ Billions","formatter":{"id":"188216"},"major_label_text_font_style":"bold","ticker":{"id":"188188"}},"id":"188187","type":"LinearAxis"},{"attributes":{"axis":{"id":"188187"},"dimension":1,"ticker":null},"id":"188190","type":"Grid"},{"attributes":{"use_scientific":false},"id":"188216","type":"BasicTickFormatter"}],"root_ids":["188173"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('188417').textContent;
+                  var render_items = [{"docid":"aff56cc6-2ffb-416f-b010-4eecbb6492be","root_ids":["188173"],"roots":{"188173":"ecfeeff5-50a0-4f78-99f8-3f1204359393"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
