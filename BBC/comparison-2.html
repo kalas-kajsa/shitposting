@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="7b304aba-b186-4281-be79-b8dcb05fd796" data-root-id="159330"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="159567">
+          {"48a9f8f1-7691-4f37-a169-aec2f8fadef8":{"roots":{"references":[{"attributes":{"use_scientific":false},"id":"159372","type":"BasicTickFormatter"},{"attributes":{},"id":"159342","type":"CategoricalTicker"},{"attributes":{"overlay":{"id":"159354"}},"id":"159350","type":"BoxZoomTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"159348"},{"id":"159349"},{"id":"159350"},{"id":"159351"},{"id":"159352"},{"id":"159353"},{"id":"159355"}]},"id":"159356","type":"Toolbar"},{"attributes":{"axis":{"id":"159344"},"dimension":1,"ticker":null},"id":"159347","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"159366","type":"VBar"},{"attributes":{},"id":"159345","type":"BasicTicker"},{"attributes":{},"id":"159349","type":"WheelZoomTool"},{"attributes":{"factors":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"]},"id":"159333","type":"FactorRange"},{"attributes":{},"id":"159348","type":"PanTool"},{"attributes":{},"id":"159352","type":"ResetTool"},{"attributes":{"data_source":{"id":"159329"},"glyph":{"id":"159365"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"159366"},"selection_glyph":null,"view":{"id":"159368"}},"id":"159367","type":"GlyphRenderer"},{"attributes":{"text":"Data Sources:","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"159379","type":"Label"},{"attributes":{"text":"How much is $100 Billion?"},"id":"159331","type":"Title"},{"attributes":{"formatter":{"id":"159370"},"major_label_orientation":45,"major_label_text_font_style":"bold","ticker":{"id":"159342"}},"id":"159341","type":"CategoricalAxis"},{"attributes":{},"id":"159339","type":"LinearScale"},{"attributes":{},"id":"159337","type":"CategoricalScale"},{"attributes":{},"id":"159353","type":"HelpTool"},{"attributes":{"label":{"field":"actor"},"renderers":[{"id":"159367"}]},"id":"159378","type":"LegendItem"},{"attributes":{"callback":null,"tooltips":[["","@actor"],["USD","@revenue{($ 0.00)} bn"]]},"id":"159355","type":"HoverTool"},{"attributes":{"axis_label":"Finance in $ Billions","formatter":{"id":"159372"},"major_label_text_font_style":"bold","ticker":{"id":"159345"}},"id":"159344","type":"LinearAxis"},{"attributes":{"items":[{"id":"159378"}],"location":"top_left"},"id":"159377","type":"Legend"},{"attributes":{"axis":{"id":"159341"},"grid_line_color":null,"ticker":null},"id":"159343","type":"Grid"},{"attributes":{"data":{"actor":["Climate Finance 2018","Gazprom","Chevron","Climate Finance Goal","Jeff Bezos","Saudi Aramco","COVID-19 Response"],"color":["#440154","#443982","#30678D","#208F8C","#35B778","#8DD644","#FDE724"],"revenue":[78.9,87.4,94.4,100.0,177.0,229.9,11000.0]},"selected":{"id":"159376"},"selection_policy":{"id":"159375"}},"id":"159329","type":"ColumnDataSource"},{"attributes":{},"id":"159370","type":"CategoricalTickFormatter"},{"attributes":{"text":"Saudi Aramco, Chevron and Gazprom 2020 annual reports, OECD, The Independent Expert Group on Climate Finance and Forbes","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"159380","type":"Label"},{"attributes":{},"id":"159375","type":"UnionRenderers"},{"attributes":{},"id":"159351","type":"SaveTool"},{"attributes":{"below":[{"id":"159341"},{"id":"159379"},{"id":"159380"}],"center":[{"id":"159343"},{"id":"159347"},{"id":"159377"}],"left":[{"id":"159344"}],"renderers":[{"id":"159367"}],"sizing_mode":"scale_both","title":{"id":"159331"},"toolbar":{"id":"159356"},"toolbar_location":"above","x_range":{"id":"159333"},"x_scale":{"id":"159337"},"y_range":{"id":"159335"},"y_scale":{"id":"159339"}},"id":"159330","subtype":"Figure","type":"Plot"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"revenue"},"width":{"value":0.5},"x":{"field":"actor"}},"id":"159365","type":"VBar"},{"attributes":{},"id":"159376","type":"Selection"},{"attributes":{"end":15000,"start":-2000},"id":"159335","type":"Range1d"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"159354","type":"BoxAnnotation"},{"attributes":{"source":{"id":"159329"}},"id":"159368","type":"CDSView"}],"root_ids":["159330"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('159567').textContent;
+                  var render_items = [{"docid":"48a9f8f1-7691-4f37-a169-aec2f8fadef8","root_ids":["159330"],"roots":{"159330":"7b304aba-b186-4281-be79-b8dcb05fd796"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
