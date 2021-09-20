@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="75be7f5b-56e1-4e56-b022-ed49eb73b0db" data-root-id="24013"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="24215">
+          {"e135bcec-9030-47ab-8dd6-07c3adc347f0":{"roots":{"references":[{"attributes":{},"id":"24016","type":"DataRange1d"},{"attributes":{},"id":"24018","type":"DataRange1d"},{"attributes":{},"id":"24045","type":"BasicTickFormatter"},{"attributes":{},"id":"24025","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"24036"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"24035"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"24040","type":"Wedge"},{"attributes":{},"id":"24029","type":"BasicTicker"},{"attributes":{},"id":"24022","type":"LinearScale"},{"attributes":{},"id":"24049","type":"UnionRenderers"},{"attributes":{"field":"angle","include_zero":true},"id":"24035","type":"CumSum"},{"attributes":{},"id":"24020","type":"LinearScale"},{"attributes":{"axis":{"id":"24028"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"24031","type":"Grid"},{"attributes":{"callback":null,"tooltips":"@country: @value{(0.00)} %"},"id":"24032","type":"HoverTool"},{"attributes":{"below":[{"id":"24024"},{"id":"24052"}],"center":[{"id":"24027"},{"id":"24031"},{"id":"24050"}],"left":[{"id":"24028"}],"renderers":[{"id":"24041"}],"sizing_mode":"stretch_both","title":{"id":"24014"},"toolbar":{"id":"24033"},"toolbar_location":null,"x_range":{"id":"24016"},"x_scale":{"id":"24020"},"y_range":{"id":"24018"},"y_scale":{"id":"24022"}},"id":"24013","subtype":"Figure","type":"Plot"},{"attributes":{"label":{"field":"country"},"renderers":[{"id":"24041"}]},"id":"24051","type":"LegendItem"},{"attributes":{"text":"Data Source: Biennial Reports submitted to the UNFCC","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"24052","type":"Label"},{"attributes":{},"id":"24047","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"24037"}},"id":"24042","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"24032"}]},"id":"24033","type":"Toolbar"},{"attributes":{},"id":"24048","type":"Selection"},{"attributes":{"items":[{"id":"24051"}]},"id":"24050","type":"Legend"},{"attributes":{"end_angle":{"expr":{"id":"24036"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"24035"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"24039","type":"Wedge"},{"attributes":{"text":"Public Core vs Climate Specific Support"},"id":"24014","type":"Title"},{"attributes":{"axis":{"id":"24024"},"grid_line_color":null,"ticker":null},"id":"24027","type":"Grid"},{"attributes":{"data_source":{"id":"24037"},"glyph":{"id":"24039"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"24040"},"selection_glyph":null,"view":{"id":"24042"}},"id":"24041","type":"GlyphRenderer"},{"attributes":{"data":{"angle":{"__ndarray__":"ZcbzAlpG+T9/O4fTZNASQA==","dtype":"float64","order":"little","shape":[2]},"color":["#440154","#30678D"],"country":["Climate Specific","Core Support"],"index":[0,1],"value":{"__ndarray__":"8KzLgS0kOUDEFI2f9LZSQA==","dtype":"float64","order":"little","shape":[2]}},"selected":{"id":"24048"},"selection_policy":{"id":"24049"}},"id":"24037","type":"ColumnDataSource"},{"attributes":{"field":"angle"},"id":"24036","type":"CumSum"},{"attributes":{"axis_label":null,"formatter":{"id":"24047"},"ticker":{"id":"24029"},"visible":false},"id":"24028","type":"LinearAxis"},{"attributes":{"axis_label":null,"formatter":{"id":"24045"},"ticker":{"id":"24025"},"visible":false},"id":"24024","type":"LinearAxis"}],"root_ids":["24013"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('24215').textContent;
+                  var render_items = [{"docid":"e135bcec-9030-47ab-8dd6-07c3adc347f0","root_ids":["24013"],"roots":{"24013":"75be7f5b-56e1-4e56-b022-ed49eb73b0db"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

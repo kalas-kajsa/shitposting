@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="87cbde30-5003-4a92-886a-94918e6941d7" data-root-id="24216"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="24418">
+          {"b33f53d1-6f4f-477e-bfdb-843648a6291d":{"roots":{"references":[{"attributes":{},"id":"24228","type":"BasicTicker"},{"attributes":{"data":{"angle":{"__ndarray__":"ixb9AYE+3z/seaAGu1IEQGMLgqwF7vw/yd6VVhiswz+qs/tLTq/0Pw==","dtype":"float64","order":"little","shape":[5]},"color":["#440154","#443982","#30678D","#208F8C","#35B778"],"country":["Low-Income Countries","Lower Middle Income Countries","Upper Middle Income Countries","High-Income Countries","Unallocable"],"index":[0,1,2,3,4],"value":{"__ndarray__":"mpmZmZmZFUCamZmZmRk8QAAAAAAAADRAMzMzMzMz+z+amZmZmZksQA==","dtype":"float64","order":"little","shape":[5]}},"selected":{"id":"24252"},"selection_policy":{"id":"24253"}},"id":"24241","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"24231"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"24234","type":"Grid"},{"attributes":{"axis_label":null,"formatter":{"id":"24249"},"ticker":{"id":"24228"},"visible":false},"id":"24227","type":"LinearAxis"},{"attributes":{"items":[{"id":"24254"}],"orientation":"horizontal"},"id":"24238","type":"Legend"},{"attributes":{"axis":{"id":"24227"},"grid_line_color":null,"ticker":null},"id":"24230","type":"Grid"},{"attributes":{},"id":"24251","type":"BasicTickFormatter"},{"attributes":{"text":"2016-18 average per income group"},"id":"24217","type":"Title"},{"attributes":{},"id":"24221","type":"DataRange1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"24235"}]},"id":"24236","type":"Toolbar"},{"attributes":{"label":{"field":"country"},"renderers":[{"id":"24245"}]},"id":"24254","type":"LegendItem"},{"attributes":{"below":[{"id":"24227"},{"id":"24238"},{"id":"24255"}],"center":[{"id":"24230"},{"id":"24234"}],"left":[{"id":"24231"}],"renderers":[{"id":"24245"}],"sizing_mode":"stretch_both","title":{"id":"24217"},"toolbar":{"id":"24236"},"toolbar_location":null,"x_range":{"id":"24219"},"x_scale":{"id":"24223"},"y_range":{"id":"24221"},"y_scale":{"id":"24225"}},"id":"24216","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"24241"},"glyph":{"id":"24243"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"24244"},"selection_glyph":null,"view":{"id":"24246"}},"id":"24245","type":"GlyphRenderer"},{"attributes":{"field":"angle","include_zero":true},"id":"24239","type":"CumSum"},{"attributes":{"source":{"id":"24241"}},"id":"24246","type":"CDSView"},{"attributes":{"field":"angle"},"id":"24240","type":"CumSum"},{"attributes":{"axis_label":null,"formatter":{"id":"24251"},"ticker":{"id":"24232"},"visible":false},"id":"24231","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"24240"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"24239"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"24243","type":"Wedge"},{"attributes":{},"id":"24225","type":"LinearScale"},{"attributes":{},"id":"24252","type":"Selection"},{"attributes":{},"id":"24219","type":"DataRange1d"},{"attributes":{},"id":"24253","type":"UnionRenderers"},{"attributes":{"end_angle":{"expr":{"id":"24240"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"24239"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"24244","type":"Wedge"},{"attributes":{"text":"Data Source: OECD","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"24255","type":"Label"},{"attributes":{},"id":"24223","type":"LinearScale"},{"attributes":{},"id":"24249","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"@country: @value{$0.00} bn "},"id":"24235","type":"HoverTool"},{"attributes":{},"id":"24232","type":"BasicTicker"}],"root_ids":["24216"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('24418').textContent;
+                  var render_items = [{"docid":"b33f53d1-6f4f-477e-bfdb-843648a6291d","root_ids":["24216"],"roots":{"24216":"87cbde30-5003-4a92-886a-94918e6941d7"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
