@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="92c84d36-be74-4ec9-aeef-29f195818f3f" data-root-id="73135"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="73712">
+          {"d8e7a317-22ce-436e-a3dd-50bb8d8f10f8":{"roots":{"references":[{"attributes":{},"id":"73071","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"73055"}]},"id":"73056","type":"Toolbar"},{"attributes":{"overlay":{"id":"73101"}},"id":"73097","type":"BoxZoomTool"},{"attributes":{"child":{"id":"73036"},"title":"Emissions by Vehicle"},"id":"73075","type":"Panel"},{"attributes":{},"id":"73043","type":"LinearScale"},{"attributes":{"data_source":{"id":"73020"},"glyph":{"id":"73022"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"73023"},"selection_glyph":null,"view":{"id":"73025"}},"id":"73024","type":"GlyphRenderer"},{"attributes":{},"id":"73068","type":"BasicTickFormatter"},{"attributes":{},"id":"73032","type":"UnionRenderers"},{"attributes":{},"id":"73100","type":"HelpTool"},{"attributes":{"data":{"angle":{"__ndarray__":"3vbJOGsn/T8YLURU+yH5PzVIAWJDH/c/4PCcdi8b5D9uhKg/DybcP6a6IlufINg/","dtype":"float64","order":"little","shape":[6]},"color":["#160B39","#410967","#6A176E","#932567","#BA3655","#DC5039"],"index":["Transportation","Electricity","Industry","Agriculture","Commercial","Residential"],"level_0":[0,1,2,3,4,5],"value":[29,25,23,10,7,6]},"selected":{"id":"73031"},"selection_policy":{"id":"73032"}},"id":"73020","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"73095"},{"id":"73096"},{"id":"73097"},{"id":"73098"},{"id":"73099"},{"id":"73100"},{"id":"73114"},{"id":"73127"}]},"id":"73102","type":"Toolbar"},{"attributes":{},"id":"73140","type":"BasicTicker"},{"attributes":{"source":{"id":"73121"}},"id":"73133","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"73101","type":"BoxAnnotation"},{"attributes":{"field":"angle"},"id":"73059","type":"CumSum"},{"attributes":{"line_color":"#000003","line_width":3,"x":{"field":"index"},"y":{"field":"percentage"}},"id":"73123","type":"Line"},{"attributes":{},"id":"73155","type":"Selection"},{"attributes":{},"id":"73045","type":"LinearScale"},{"attributes":{"end":50},"id":"73119","type":"Range1d"},{"attributes":{},"id":"73092","type":"BasicTicker"},{"attributes":{"source":{"id":"73076"}},"id":"73113","type":"CDSView"},{"attributes":{},"id":"73096","type":"WheelZoomTool"},{"attributes":{},"id":"73070","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"number"},"width":{"value":0.5},"x":{"field":"cars"}},"id":"73111","type":"VBar"},{"attributes":{},"id":"73012","type":"BasicTicker"},{"attributes":{},"id":"73005","type":"LinearScale"},{"attributes":{"callback":null,"renderers":[{"id":"73112"}],"toggleable":false,"tooltips":[["Total Sales 2020","@number{0,00 a}"]]},"id":"73114","type":"HoverTool"},{"attributes":{"tabs":[{"id":"73134"},{"id":"73035"},{"id":"73075"}]},"id":"73135","type":"Tabs"},{"attributes":{},"id":"73001","type":"DataRange1d"},{"attributes":{"source":{"id":"73121"}},"id":"73126","type":"CDSView"},{"attributes":{},"id":"73141","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"73020"}},"id":"73025","type":"CDSView"},{"attributes":{},"id":"73098","type":"SaveTool"},{"attributes":{"child":{"id":"73077"},"title":"Car Sales"},"id":"73134","type":"Panel"},{"attributes":{"below":[{"id":"73047"}],"center":[{"id":"73050"},{"id":"73054"},{"id":"73073"}],"left":[{"id":"73051"}],"renderers":[{"id":"73064"}],"sizing_mode":"stretch_both","title":{"id":"73037"},"toolbar":{"id":"73056"},"toolbar_location":null,"x_range":{"id":"73039"},"x_scale":{"id":"73043"},"y_range":{"id":"73041"},"y_scale":{"id":"73045"}},"id":"73036","subtype":"Figure","type":"Plot"},{"attributes":{"items":[{"id":"73034"}]},"id":"73033","type":"Legend"},{"attributes":{},"id":"73099","type":"ResetTool"},{"attributes":{"factors":[" ","  ","Conventional Cars","   ","Conventional SUVs","    ","Electric Cars","     ","Electric SUVs","      ","       "]},"id":"73080","type":"FactorRange"},{"attributes":{"data_source":{"id":"73121"},"glyph":{"id":"73130"},"hover_glyph":null,"level":"underlay","muted_glyph":null,"nonselection_glyph":{"id":"73131"},"selection_glyph":null,"view":{"id":"73133"},"y_range_name":"Percentage"},"id":"73132","type":"GlyphRenderer"},{"attributes":{},"id":"73028","type":"BasicTickFormatter"},{"attributes":{},"id":"73031","type":"Selection"},{"attributes":{},"id":"73089","type":"CategoricalTicker"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"number"},"width":{"value":0.5},"x":{"field":"cars"}},"id":"73110","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"73125"}],"toggleable":false,"tooltips":[["Year","@year"],["SUV Percentage of Sales","@percentage{0.0} %"]]},"id":"73127","type":"HoverTool"},{"attributes":{"child":{"id":"72996"},"title":"Emissions by Sector"},"id":"73035","type":"Panel"},{"attributes":{"axis_label":null,"formatter":{"id":"73028"},"ticker":{"id":"73012"},"visible":false},"id":"73011","type":"LinearAxis"},{"attributes":{},"id":"73008","type":"BasicTicker"},{"attributes":{},"id":"73041","type":"DataRange1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"73015"}]},"id":"73016","type":"Toolbar"},{"attributes":{"axis":{"id":"73091"},"dimension":1,"ticker":null},"id":"73094","type":"Grid"},{"attributes":{"end_angle":{"expr":{"id":"73059"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"73058"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"73063","type":"Wedge"},{"attributes":{"format":"0,000"},"id":"73117","type":"NumeralTickFormatter"},{"attributes":{"text":"Emissions by Sector"},"id":"72997","type":"Title"},{"attributes":{"data":{"angle":{"__ndarray__":"RleaCobdDEBddCfCd+P3P6SLyyE56OM/pIvLITno0z/SRd8C9dm/P9JF3wL12b8/","dtype":"float64","order":"little","shape":[6]},"color":["#160B39","#410967","#6A176E","#932567","#BA3655","#DC5039"],"index":["Light-Duty Vehicles","Medium- and Heavy-Duty Trucks","Aircraft","Other","Rail","Ships and Boats"],"level_0":[0,1,2,3,4,5],"value":[58,24,10,5,2,2]},"selected":{"id":"73071"},"selection_policy":{"id":"73072"}},"id":"73060","type":"ColumnDataSource"},{"attributes":{},"id":"73156","type":"UnionRenderers"},{"attributes":{"line_alpha":0.1,"line_color":"#000003","line_width":3,"x":{"field":"index"},"y":{"field":"percentage"}},"id":"73124","type":"Line"},{"attributes":{"end_angle":{"expr":{"id":"73019"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"73018"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"73022","type":"Wedge"},{"attributes":{},"id":"73072","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"73076"},"glyph":{"id":"73110"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"73111"},"selection_glyph":null,"view":{"id":"73113"}},"id":"73112","type":"GlyphRenderer"},{"attributes":{},"id":"73153","type":"Selection"},{"attributes":{"end_angle":{"expr":{"id":"73019"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"73018"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"73023","type":"Wedge"},{"attributes":{"axis_label":null,"formatter":{"id":"73068"},"ticker":{"id":"73052"},"visible":false},"id":"73051","type":"LinearAxis"},{"attributes":{"below":[{"id":"73007"}],"center":[{"id":"73010"},{"id":"73014"},{"id":"73033"}],"left":[{"id":"73011"}],"renderers":[{"id":"73024"}],"sizing_mode":"stretch_both","title":{"id":"72997"},"toolbar":{"id":"73016"},"toolbar_location":null,"x_range":{"id":"72999"},"x_scale":{"id":"73003"},"y_range":{"id":"73001"},"y_scale":{"id":"73005"}},"id":"72996","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"tooltips":[["Sector","@index"],["Share","@value %"]]},"id":"73015","type":"HoverTool"},{"attributes":{},"id":"73048","type":"BasicTicker"},{"attributes":{"data_source":{"id":"73121"},"glyph":{"id":"73123"},"hover_glyph":null,"level":"underlay","muted_glyph":null,"nonselection_glyph":{"id":"73124"},"selection_glyph":null,"view":{"id":"73126"},"y_range_name":"Percentage"},"id":"73125","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"73074"}]},"id":"73073","type":"Legend"},{"attributes":{"data":{"cars":[" ","  ","Conventional Cars","   ","Conventional SUVs","    ","Electric Cars","     ","Electric SUVs","      ","       "],"color":["#000003","#160B39","#410967","#6A176E","#932567","#BA3655","#DC5039","#F2751A","#FBA40A","#F6D542","#FCFEA4"],"number":[0,0,40500000,0,29600000,0,1900000,0,1100000,0,0]},"selected":{"id":"73153"},"selection_policy":{"id":"73154"}},"id":"73076","type":"ColumnDataSource"},{"attributes":{},"id":"73030","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Type of vehicle","formatter":{"id":"73143"},"ticker":{"id":"73089"}},"id":"73088","type":"CategoricalAxis"},{"attributes":{},"id":"72999","type":"DataRange1d"},{"attributes":{},"id":"73003","type":"LinearScale"},{"attributes":{"field":"angle","include_zero":true},"id":"73018","type":"CumSum"},{"attributes":{"text":"Emissions by Vehicle Type"},"id":"73037","type":"Title"},{"attributes":{"fill_color":{"value":"#000003"},"line_color":{"value":"#000003"},"size":{"units":"screen","value":5},"x":{"field":"index"},"y":{"field":"percentage"}},"id":"73130","type":"Scatter"},{"attributes":{"text":"US Passenger Car Sales"},"id":"73078","type":"Title"},{"attributes":{},"id":"73095","type":"PanTool"},{"attributes":{"formatter":{"id":"73141"},"ticker":{"id":"73140"},"y_range_name":"Percentage"},"id":"73120","type":"LinearAxis"},{"attributes":{"label":{"field":"index"},"renderers":[{"id":"73024"}]},"id":"73034","type":"LegendItem"},{"attributes":{"field":"angle"},"id":"73019","type":"CumSum"},{"attributes":{"callback":null,"tooltips":[["Vehicle","@index"],["Share","@value %"]]},"id":"73055","type":"HoverTool"},{"attributes":{"end":50000000},"id":"73082","type":"Range1d"},{"attributes":{"axis":{"id":"73047"},"grid_line_color":null,"ticker":null},"id":"73050","type":"Grid"},{"attributes":{"axis_label":null,"formatter":{"id":"73030"},"ticker":{"id":"73008"},"visible":false},"id":"73007","type":"LinearAxis"},{"attributes":{},"id":"73052","type":"BasicTicker"},{"attributes":{},"id":"73086","type":"LinearScale"},{"attributes":{"below":[{"id":"73088"}],"center":[{"id":"73090"},{"id":"73094"}],"extra_y_ranges":{"Percentage":{"id":"73119"}},"left":[{"id":"73091"}],"renderers":[{"id":"73112"},{"id":"73125"},{"id":"73132"}],"right":[{"id":"73120"}],"sizing_mode":"stretch_both","title":{"id":"73078"},"toolbar":{"id":"73102"},"toolbar_location":null,"x_range":{"id":"73080"},"x_scale":{"id":"73084"},"y_range":{"id":"73082"},"y_scale":{"id":"73086"}},"id":"73077","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"2020 Sales","formatter":{"id":"73117"},"ticker":{"id":"73092"}},"id":"73091","type":"LinearAxis"},{"attributes":{},"id":"73143","type":"CategoricalTickFormatter"},{"attributes":{},"id":"73154","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#000003"},"line_alpha":{"value":0.1},"line_color":{"value":"#000003"},"size":{"units":"screen","value":5},"x":{"field":"index"},"y":{"field":"percentage"}},"id":"73131","type":"Scatter"},{"attributes":{"label":{"field":"index"},"renderers":[{"id":"73064"}]},"id":"73074","type":"LegendItem"},{"attributes":{"axis":{"id":"73007"},"grid_line_color":null,"ticker":null},"id":"73010","type":"Grid"},{"attributes":{"axis_label":null,"formatter":{"id":"73070"},"ticker":{"id":"73048"},"visible":false},"id":"73047","type":"LinearAxis"},{"attributes":{"data_source":{"id":"73060"},"glyph":{"id":"73062"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"73063"},"selection_glyph":null,"view":{"id":"73065"}},"id":"73064","type":"GlyphRenderer"},{"attributes":{},"id":"73084","type":"CategoricalScale"},{"attributes":{},"id":"73039","type":"DataRange1d"},{"attributes":{"axis":{"id":"73011"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"73014","type":"Grid"},{"attributes":{"source":{"id":"73060"}},"id":"73065","type":"CDSView"},{"attributes":{"data":{"index":[" ","  ","Conventional Cars","   ","Conventional SUVs","    ","Electric Cars","     ","Electric SUVs","      ","       "],"level_0":[0,1,2,3,4,5,6,7,8,9,10],"percentage":{"__ndarray__":"AAAAAAAAL0AAAAAAAIAxQJqZmZmZmTNAMzMzMzOzNUCamZmZmRk4QM3MzMzMTDtAMzMzMzMzP0DNzMzMzExBQAAAAAAAgEJAAAAAAACAQ0AAAAAAAEBEQA==","dtype":"float64","order":"little","shape":[11]},"year":[2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]},"selected":{"id":"73155"},"selection_policy":{"id":"73156"}},"id":"73121","type":"ColumnDataSource"},{"attributes":{"field":"angle","include_zero":true},"id":"73058","type":"CumSum"},{"attributes":{"axis":{"id":"73051"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"73054","type":"Grid"},{"attributes":{"end_angle":{"expr":{"id":"73059"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"73058"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"73062","type":"Wedge"},{"attributes":{"axis":{"id":"73088"},"ticker":null},"id":"73090","type":"Grid"}],"root_ids":["73135"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('73712').textContent;
+                  var render_items = [{"docid":"d8e7a317-22ce-436e-a3dd-50bb8d8f10f8","root_ids":["73135"],"roots":{"73135":"92c84d36-be74-4ec9-aeef-29f195818f3f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
