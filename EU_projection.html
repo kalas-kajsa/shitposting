@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="51a6257a-7247-4d66-84c4-8523debf5fdd" data-root-id="76360"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="76627">
+          {"04ee73d3-d22d-4b9b-95b3-c3ce1be79dbb":{"roots":{"references":[{"attributes":{"label":{"value":"1.5\u00b0C Paris Agreement compatible"},"renderers":[{"id":"76423"}]},"id":"76433","type":"LegendItem"},{"attributes":{},"id":"76365","type":"DataRange1d"},{"attributes":{"source":{"id":"76359"}},"id":"76397","type":"CDSView"},{"attributes":{},"id":"76402","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"76359"},"glyph":{"id":"76409"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"76410"},"selection_glyph":null,"view":{"id":"76412"}},"id":"76411","type":"GlyphRenderer"},{"attributes":{"callback":null,"renderers":[{"id":"76411"}],"tooltips":[["Year","@index"],["Average projection","@avg{0.0} mt"]]},"id":"76418","type":"HoverTool"},{"attributes":{"source":{"id":"76359"}},"id":"76412","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"76379"},{"id":"76380"},{"id":"76381"},{"id":"76382"},{"id":"76383"},{"id":"76384"},{"id":"76418"},{"id":"76434"}]},"id":"76386","type":"Toolbar"},{"attributes":{"label":{"value":"Projected CO2 emissions"},"renderers":[{"id":"76396"}]},"id":"76407","type":"LegendItem"},{"attributes":{"text":"Data Source: Climate Action Tracker, Country Assesments","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"76441","type":"Label"},{"attributes":{"callback":null,"renderers":[{"id":"76423"}],"tooltips":[["Paris Compatible","@paris{0.0} mt"]]},"id":"76434","type":"HoverTool"},{"attributes":{},"id":"76404","type":"UnionRenderers"},{"attributes":{},"id":"76363","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.1},"line_color":{"value":"#2ca02c"},"size":{"units":"screen","value":12},"x":{"field":"index"},"y":{"field":"paris"}},"id":"76422","type":"Scatter"},{"attributes":{"data_source":{"id":"76359"},"glyph":{"id":"76394"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"76395"},"selection_glyph":null,"view":{"id":"76397"}},"id":"76396","type":"GlyphRenderer"},{"attributes":{},"id":"76376","type":"BasicTicker"},{"attributes":{},"id":"76372","type":"BasicTicker"},{"attributes":{},"id":"76367","type":"LinearScale"},{"attributes":{},"id":"76369","type":"LinearScale"},{"attributes":{"x":{"field":"index"},"y":{"field":"avg"}},"id":"76409","type":"Line"},{"attributes":{"axis_label":"Year","formatter":{"id":"76402"},"ticker":{"id":"76372"}},"id":"76371","type":"LinearAxis"},{"attributes":{},"id":"76379","type":"PanTool"},{"attributes":{},"id":"76383","type":"ResetTool"},{"attributes":{"items":[{"id":"76407"},{"id":"76433"}],"location":"bottom_left"},"id":"76406","type":"Legend"},{"attributes":{},"id":"76382","type":"SaveTool"},{"attributes":{"source":{"id":"76359"}},"id":"76424","type":"CDSView"},{"attributes":{"text":"EU projected CO2 emissions 2020-2030"},"id":"76361","type":"Title"},{"attributes":{"data":{"avg":{"__ndarray__":"AAAAAADkqEAAAAAAAPyoQAAAAAAAC6lAAAAAAAC0qEAAAAAAAF2oQAAAAAAABqhAAAAAAACtp0AAAAAAAFWnQAAAAAAA/KZAAAAAAAClpkAAAAAAAEymQA==","dtype":"float64","order":"little","shape":[11]},"index":["2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030"],"level_0":[0,1,2,3,4,5,6,7,8,9,10],"maximum":[3186,3271,3347,3320,3294,3268,3240,3213,3185,3158,3130],"minimum":[3186,3125,3064,3004,2943,2882,2821,2760,2699,2639,2578],"paris":{"__ndarray__":"AAAAAADPrEDNzMzMzB2rQM3MzMzMbKlAmpmZmZm7p0BmZmZmZgqmQGZmZmZmWaRAzczMzMwko0AAAAAAAPChQGZmZmZmu6BAmpmZmZkNn0BmZmZmZqScQA==","dtype":"float64","order":"little","shape":[11]}},"selected":{"id":"76403"},"selection_policy":{"id":"76404"}},"id":"76359","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#2ca02c"},"line_color":{"value":"#2ca02c"},"size":{"units":"screen","value":12},"x":{"field":"index"},"y":{"field":"paris"}},"id":"76421","type":"Scatter"},{"attributes":{},"id":"76380","type":"WheelZoomTool"},{"attributes":{"fill_color":{"value":"black"},"size":{"units":"screen","value":3},"x":{"field":"index"},"y":{"field":"avg"}},"id":"76414","type":"Scatter"},{"attributes":{"below":[{"id":"76371"},{"id":"76441"}],"center":[{"id":"76374"},{"id":"76378"},{"id":"76406"}],"left":[{"id":"76375"}],"renderers":[{"id":"76396"},{"id":"76411"},{"id":"76416"},{"id":"76423"},{"id":"76439"}],"sizing_mode":"stretch_both","title":{"id":"76361"},"toolbar":{"id":"76386"},"toolbar_location":"below","x_range":{"id":"76363"},"x_scale":{"id":"76367"},"y_range":{"id":"76365"},"y_scale":{"id":"76369"}},"id":"76360","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"76375"},"dimension":1,"ticker":null},"id":"76378","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"black"},"line_alpha":{"value":0.1},"size":{"units":"screen","value":3},"x":{"field":"index"},"y":{"field":"avg"}},"id":"76415","type":"Scatter"},{"attributes":{"source":{"id":"76359"}},"id":"76440","type":"CDSView"},{"attributes":{"data_source":{"id":"76359"},"glyph":{"id":"76421"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"76422"},"selection_glyph":null,"view":{"id":"76424"}},"id":"76423","type":"GlyphRenderer"},{"attributes":{"overlay":{"id":"76385"}},"id":"76381","type":"BoxZoomTool"},{"attributes":{"line_alpha":{"value":0.1},"line_dash":[1,5],"line_width":{"value":2},"x0":{"field":"index"},"x1":{"field":"index"},"y0":{"field":"paris"},"y1":{"field":"avg"}},"id":"76438","type":"Segment"},{"attributes":{},"id":"76384","type":"HelpTool"},{"attributes":{},"id":"76403","type":"Selection"},{"attributes":{"data_source":{"id":"76359"},"glyph":{"id":"76414"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"76415"},"selection_glyph":null,"view":{"id":"76417"}},"id":"76416","type":"GlyphRenderer"},{"attributes":{},"id":"76400","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Projected CO2 Emissions (Mt)","formatter":{"id":"76400"},"ticker":{"id":"76376"}},"id":"76375","type":"LinearAxis"},{"attributes":{"line_alpha":0.1,"x":{"field":"index"},"y":{"field":"avg"}},"id":"76410","type":"Line"},{"attributes":{"source":{"id":"76359"}},"id":"76417","type":"CDSView"},{"attributes":{"line_alpha":{"value":0.3},"line_dash":[1,5],"line_width":{"value":2},"x0":{"field":"index"},"x1":{"field":"index"},"y0":{"field":"paris"},"y1":{"field":"avg"}},"id":"76437","type":"Segment"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"76385","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"76371"},"ticker":null},"id":"76374","type":"Grid"},{"attributes":{"data_source":{"id":"76359"},"glyph":{"id":"76437"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"76438"},"selection_glyph":null,"view":{"id":"76440"}},"id":"76439","type":"GlyphRenderer"},{"attributes":{"fill_alpha":0.1,"fill_color":"#d62728","x":{"field":"index"},"y1":{"field":"minimum"},"y2":{"field":"maximum"}},"id":"76395","type":"VArea"},{"attributes":{"fill_alpha":0.7,"fill_color":"#d62728","x":{"field":"index"},"y1":{"field":"minimum"},"y2":{"field":"maximum"}},"id":"76394","type":"VArea"}],"root_ids":["76360"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('76627').textContent;
+                  var render_items = [{"docid":"04ee73d3-d22d-4b9b-95b3-c3ce1be79dbb","root_ids":["76360"],"roots":{"76360":"51a6257a-7247-4d66-84c4-8523debf5fdd"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
