@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f9199ed7-9a7d-42a2-9716-03e24e9637fc" data-root-id="9790"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="9953">
+          {"b0ca1155-74da-421c-83ed-9779de91402f":{"roots":{"references":[{"attributes":{"callback":null,"renderers":[{"id":"9723"}],"toggleable":false,"tooltips":[["Region","EU"],["CO2 Emissions","@{Europe/Central Asia}{0.0 a}t"]]},"id":"9734","type":"HoverTool"},{"attributes":{"child":{"id":"9671"},"title":"CO2 Emissions"},"id":"9789","type":"Panel"},{"attributes":{"data_source":{"id":"9670"},"glyph":{"id":"9769"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9770"},"selection_glyph":null,"view":{"id":"9772"}},"id":"9771","type":"GlyphRenderer"},{"attributes":{"axis_label":"Year","formatter":{"id":"9710"},"major_label_orientation":120,"ticker":{"id":"9683"}},"id":"9682","type":"CategoricalAxis"},{"attributes":{},"id":"9689","type":"PanTool"},{"attributes":{"factors":["2015","2016","2017","2018","2019","2020","2021","2022","2023","Pending"]},"id":"9674","type":"FactorRange"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"Africa"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9704","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"9706"}],"toggleable":false,"tooltips":[["Region","Africa"],["CO2 Emissions","@Africa{0.0 a}t"]]},"id":"9718","type":"HoverTool"},{"attributes":{},"id":"9714","type":"Selection"},{"attributes":{"label":{"value":"Africa"},"renderers":[{"id":"9706"}]},"id":"9717","type":"LegendItem"},{"attributes":{},"id":"9686","type":"BasicTicker"},{"attributes":{},"id":"9678","type":"CategoricalScale"},{"attributes":{},"id":"9710","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"CO2 Emissions (Kt)","formatter":{"id":"9787"},"ticker":{"id":"9686"}},"id":"9685","type":"LinearAxis"},{"attributes":{"text":"Boston University Global Development Centre","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"9785","type":"Label"},{"attributes":{"axis":{"id":"9682"},"ticker":null},"id":"9684","type":"Grid"},{"attributes":{"tabs":[{"id":"9789"}]},"id":"9790","type":"Tabs"},{"attributes":{"axis":{"id":"9685"},"dimension":1,"ticker":null},"id":"9688","type":"Grid"},{"attributes":{"callback":null,"renderers":[{"id":"9771"}],"toggleable":false,"tooltips":[["Region","Southeast Asia"],["CO2 Emissions","@{Southeast Asia}{0.0 a}t"]]},"id":"9782","type":"HoverTool"},{"attributes":{"data":{"Africa":{"__ndarray__":"AAAAAADptEAAAAAAAAAAAAAAAABA+NFAAAAAAAAAAAAAAAAAgF3PQAAAAAAA6cRAAAAAAADpxEAAAAAAAOm0QAAAAAAAXq9AAAAAAAAjukA=","dtype":"float64","order":"little","shape":[10]},"Europe/Central Asia":{"__ndarray__":"AAAAAAAAAAAAAAAAAHqwQAAAAAAAoJdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyKFAAAAAAICJw0A=","dtype":"float64","order":"little","shape":[10]},"Middle East":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXq9AAAAAAABer0AAAAAAAF6vQAAAAAAAXq9AAAAAAIBAwUA=","dtype":"float64","order":"little","shape":[10]},"South Asia":{"__ndarray__":"AAAAAACatkAAAAAAAAAAAAAAAAAA/slAAAAAAAAAAAAAAAAAgD7QQAAAAAAAAAAAAAAAAAAAmkAAAAAAAAAAAAAAAAAAAAAAAAAAAIAX4kA=","dtype":"float64","order":"little","shape":[10]},"Southeast Asia":{"__ndarray__":"AAAAAIDV0UAAAAAAgMTBQAAAAAAAK7tAAAAAAIBqy0AAAAAAAM+4QAAAAAAAobdAAAAAAECw00AAAAAAAGu4QAAAAAAAAAAAAAAAAICoxUA=","dtype":"float64","order":"little","shape":[10]},"Year of Commission":["2015","2016","2017","2018","2019","2020","2021","2022","2023","Pending"],"afr_sum":{"__ndarray__":"AAAAAADptEAAAAAAAAAAAAAAAABA+NFAAAAAAAAAAAAAAAAAgF3PQAAAAAAA6cRAAAAAAADpxEAAAAAAAOm0QAAAAAAAXq9AAAAAAAAjukA=","dtype":"float64","order":"little","shape":[10]},"eu_sum":{"__ndarray__":"AAAAAADptEAAAAAAAHqwQAAAAABActNAAAAAAAAAAAAAAAAAgF3PQAAAAAAA6cRAAAAAAADpxEAAAAAAAOm0QAAAAAAAk7hAAAAAAIBN0EA=","dtype":"float64","order":"little","shape":[10]},"me_sum":{"__ndarray__":"AAAAAADptEAAAAAAAHqwQAAAAABActNAAAAAAAAAAAAAAAAAgF3PQAAAAACAwMxAAAAAAIDAzEAAAAAAAEzCQAAAAAAAIcRAAAAAAMDt2EA=","dtype":"float64","order":"little","shape":[10]},"sa_sum":{"__ndarray__":"AAAAAIDBxUAAAAAAAHqwQAAAAACgOOBAAAAAAAAAAAAAAAAAQO3fQAAAAACAwMxAAAAAAEAA0EAAAAAAAEzCQAAAAAAAIcRAAAAAAGCO7kA=","dtype":"float64","order":"little","shape":[10]},"sea_sum":{"__ndarray__":"AAAAAEC23EAAAAAAgAHKQAAAAAAAnuNAAAAAAIBqy0AAAAAAgBDjQAAAAACASNRAAAAAAEDY4UAAAAAAgIHOQAAAAAAAIcRAAAAAAED88UA=","dtype":"float64","order":"little","shape":[10]}},"selected":{"id":"9714"},"selection_policy":{"id":"9715"}},"id":"9670","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Africa"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9705","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"9755"}],"toggleable":false,"tooltips":[["Region","South Asia"],["CO2 Emissions","@{South Asia}{0.0 a}t"]]},"id":"9766","type":"HoverTool"},{"attributes":{"bottom":{"field":"Africa"},"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"field":"eu_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9721","type":"VBar"},{"attributes":{"below":[{"id":"9682"},{"id":"9784"},{"id":"9785"}],"center":[{"id":"9684"},{"id":"9688"},{"id":"9716"}],"left":[{"id":"9685"}],"renderers":[{"id":"9706"},{"id":"9723"},{"id":"9739"},{"id":"9755"},{"id":"9771"}],"sizing_mode":"stretch_both","title":{"id":"9672"},"toolbar":{"id":"9696"},"toolbar_location":null,"x_range":{"id":"9674"},"x_scale":{"id":"9678"},"y_range":{"id":"9676"},"y_scale":{"id":"9680"}},"id":"9671","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"9670"}},"id":"9707","type":"CDSView"},{"attributes":{"bottom":{"field":"me_sum"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#d62728"},"line_alpha":{"value":0.1},"line_color":{"value":"#d62728"},"top":{"field":"sa_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9754","type":"VBar"},{"attributes":{"label":{"value":"South Asia"},"renderers":[{"id":"9755"}]},"id":"9765","type":"LegendItem"},{"attributes":{"label":{"value":"Southeast Asia"},"renderers":[{"id":"9771"}]},"id":"9781","type":"LegendItem"},{"attributes":{"label":{"value":"EU"},"renderers":[{"id":"9723"}]},"id":"9733","type":"LegendItem"},{"attributes":{},"id":"9693","type":"ResetTool"},{"attributes":{},"id":"9692","type":"SaveTool"},{"attributes":{"format":"0,0 a"},"id":"9787","type":"NumeralTickFormatter"},{"attributes":{},"id":"9683","type":"CategoricalTicker"},{"attributes":{"end":80000},"id":"9676","type":"Range1d"},{"attributes":{},"id":"9715","type":"UnionRenderers"},{"attributes":{},"id":"9680","type":"LinearScale"},{"attributes":{"bottom":{"field":"sa_sum"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#9467bd"},"line_alpha":{"value":0.1},"line_color":{"value":"#9467bd"},"top":{"field":"sea_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9770","type":"VBar"},{"attributes":{"data_source":{"id":"9670"},"glyph":{"id":"9704"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9705"},"selection_glyph":null,"view":{"id":"9707"}},"id":"9706","type":"GlyphRenderer"},{"attributes":{"bottom":{"field":"eu_sum"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.1},"line_color":{"value":"#2ca02c"},"top":{"field":"me_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9738","type":"VBar"},{"attributes":{"overlay":{"id":"9695"}},"id":"9691","type":"BoxZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"9695","type":"BoxAnnotation"},{"attributes":{},"id":"9694","type":"HelpTool"},{"attributes":{"source":{"id":"9670"}},"id":"9740","type":"CDSView"},{"attributes":{},"id":"9690","type":"WheelZoomTool"},{"attributes":{"source":{"id":"9670"}},"id":"9772","type":"CDSView"},{"attributes":{"data_source":{"id":"9670"},"glyph":{"id":"9753"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9754"},"selection_glyph":null,"view":{"id":"9756"}},"id":"9755","type":"GlyphRenderer"},{"attributes":{"text":"Data Source:","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"9784","type":"Label"},{"attributes":{"callback":null,"renderers":[{"id":"9739"}],"toggleable":false,"tooltips":[["Region","Middle East"],["CO2 Emissions","@{Middle East}{0.0 a}t"]]},"id":"9750","type":"HoverTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"9689"},{"id":"9690"},{"id":"9691"},{"id":"9692"},{"id":"9693"},{"id":"9694"},{"id":"9718"},{"id":"9734"},{"id":"9750"},{"id":"9766"},{"id":"9782"}]},"id":"9696","type":"Toolbar"},{"attributes":{"text":"Esimated annual CO2 Emissions from China's Foreign Investments in Coal Plants"},"id":"9672","type":"Title"},{"attributes":{"bottom":{"field":"Africa"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"field":"eu_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9722","type":"VBar"},{"attributes":{"bottom":{"field":"sa_sum"},"fill_color":{"value":"#9467bd"},"line_color":{"value":"#9467bd"},"top":{"field":"sea_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9769","type":"VBar"},{"attributes":{"data_source":{"id":"9670"},"glyph":{"id":"9737"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9738"},"selection_glyph":null,"view":{"id":"9740"}},"id":"9739","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"9717"},{"id":"9733"},{"id":"9749"},{"id":"9765"},{"id":"9781"}],"location":"top_left"},"id":"9716","type":"Legend"},{"attributes":{"source":{"id":"9670"}},"id":"9756","type":"CDSView"},{"attributes":{"source":{"id":"9670"}},"id":"9724","type":"CDSView"},{"attributes":{"bottom":{"field":"me_sum"},"fill_color":{"value":"#d62728"},"line_color":{"value":"#d62728"},"top":{"field":"sa_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9753","type":"VBar"},{"attributes":{"data_source":{"id":"9670"},"glyph":{"id":"9721"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9722"},"selection_glyph":null,"view":{"id":"9724"}},"id":"9723","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Middle East"},"renderers":[{"id":"9739"}]},"id":"9749","type":"LegendItem"},{"attributes":{"bottom":{"field":"eu_sum"},"fill_color":{"value":"#2ca02c"},"line_color":{"value":"#2ca02c"},"top":{"field":"me_sum"},"width":{"value":0.9},"x":{"field":"Year of Commission"}},"id":"9737","type":"VBar"}],"root_ids":["9790"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('9953').textContent;
+                  var render_items = [{"docid":"b0ca1155-74da-421c-83ed-9779de91402f","root_ids":["9790"],"roots":{"9790":"f9199ed7-9a7d-42a2-9716-03e24e9637fc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
