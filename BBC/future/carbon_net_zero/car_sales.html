@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="b135dfaa-b5cd-4975-a0f7-61bd73fc731b" data-root-id="20338"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="20439">
+          {"f4a65765-665b-4ea8-80c8-382172d7029b":{"roots":{"references":[{"attributes":{"source":{"id":"20337"}},"id":"20363","type":"CDSView"},{"attributes":{"data":{"color":["#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f"],"emissions":[29,25,23,10,7,6],"sector":["Transportation","Electricity","Industry","Agriculture","Commercial","Residential"]},"selected":{"id":"20371"},"selection_policy":{"id":"20372"}},"id":"20337","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"20349"},{"id":"20366"}],"center":[{"id":"20351"},{"id":"20355"}],"left":[{"id":"20352"}],"renderers":[{"id":"20362"}],"sizing_mode":"stretch_both","title":{"id":"20339"},"toolbar":{"id":"20357"},"toolbar_location":"below","x_range":{"id":"20341"},"x_scale":{"id":"20345"},"y_range":{"id":"20343"},"y_scale":{"id":"20347"}},"id":"20338","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"20337"},"glyph":{"id":"20360"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"20361"},"selection_glyph":null,"view":{"id":"20363"}},"id":"20362","type":"GlyphRenderer"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"emissions"},"width":{"value":0.5},"x":{"field":"sector"}},"id":"20360","type":"VBar"},{"attributes":{"factors":["Transportation","Electricity","Industry","Agriculture","Commercial","Residential"]},"id":"20341","type":"FactorRange"},{"attributes":{"end":60},"id":"20343","type":"Range1d"},{"attributes":{},"id":"20353","type":"BasicTicker"},{"attributes":{"format":"%0.0f %%"},"id":"20364","type":"PrintfTickFormatter"},{"attributes":{},"id":"20350","type":"CategoricalTicker"},{"attributes":{},"id":"20347","type":"LinearScale"},{"attributes":{"text":"Data Source: Environmental Protection Agency","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"20366","type":"Label"},{"attributes":{},"id":"20372","type":"UnionRenderers"},{"attributes":{},"id":"20371","type":"Selection"},{"attributes":{"text":"Emissions by Sector"},"id":"20339","type":"Title"},{"attributes":{"axis":{"id":"20349"},"ticker":null},"id":"20351","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"emissions"},"width":{"value":0.5},"x":{"field":"sector"}},"id":"20361","type":"VBar"},{"attributes":{"formatter":{"id":"20364"},"ticker":{"id":"20353"}},"id":"20352","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["Sector","@sector"],["Share","@emissions %"]]},"id":"20356","type":"HoverTool"},{"attributes":{},"id":"20370","type":"CategoricalTickFormatter"},{"attributes":{},"id":"20345","type":"CategoricalScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"20356"}]},"id":"20357","type":"Toolbar"},{"attributes":{"axis":{"id":"20352"},"dimension":1,"ticker":null},"id":"20355","type":"Grid"},{"attributes":{"formatter":{"id":"20370"},"major_label_orientation":120,"ticker":{"id":"20350"}},"id":"20349","type":"CategoricalAxis"}],"root_ids":["20338"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('20439').textContent;
+                  var render_items = [{"docid":"f4a65765-665b-4ea8-80c8-382172d7029b","root_ids":["20338"],"roots":{"20338":"b135dfaa-b5cd-4975-a0f7-61bd73fc731b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

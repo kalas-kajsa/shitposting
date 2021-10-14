@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c0c8ae54-6a59-4c35-b4e8-6bcad11fdf0c" data-root-id="48598"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="48766">
+          {"e8caf915-b696-495c-966c-391383687498":{"roots":{"references":[{"attributes":{"source":{"id":"48597"}},"id":"48623","type":"CDSView"},{"attributes":{"axis":{"id":"48612"},"dimension":1,"ticker":null},"id":"48615","type":"Grid"},{"attributes":{"factors":["Transportation","Electricity","Industry","Agriculture","Commercial","Residential"]},"id":"48601","type":"FactorRange"},{"attributes":{"data":{"color":["#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f"],"emissions":[29,25,23,10,7,6],"sector":["Transportation","Electricity","Industry","Agriculture","Commercial","Residential"]},"selected":{"id":"48631"},"selection_policy":{"id":"48632"}},"id":"48597","type":"ColumnDataSource"},{"attributes":{},"id":"48630","type":"CategoricalTickFormatter"},{"attributes":{},"id":"48631","type":"Selection"},{"attributes":{"text":"Data Source: Environmental Protection Agency","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"48626","type":"Label"},{"attributes":{},"id":"48607","type":"LinearScale"},{"attributes":{"formatter":{"id":"48630"},"major_label_orientation":120,"ticker":{"id":"48610"}},"id":"48609","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"emissions"},"width":{"value":0.5},"x":{"field":"sector"}},"id":"48621","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["Sector","@sector"],["Share","@emissions %"]]},"id":"48616","type":"HoverTool"},{"attributes":{},"id":"48605","type":"CategoricalScale"},{"attributes":{},"id":"48613","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"48616"}]},"id":"48617","type":"Toolbar"},{"attributes":{"end":60},"id":"48603","type":"Range1d"},{"attributes":{},"id":"48610","type":"CategoricalTicker"},{"attributes":{"format":"%0.0f %%"},"id":"48624","type":"PrintfTickFormatter"},{"attributes":{"axis":{"id":"48609"},"ticker":null},"id":"48611","type":"Grid"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"emissions"},"width":{"value":0.5},"x":{"field":"sector"}},"id":"48620","type":"VBar"},{"attributes":{"below":[{"id":"48609"},{"id":"48626"}],"center":[{"id":"48611"},{"id":"48615"}],"left":[{"id":"48612"}],"renderers":[{"id":"48622"}],"sizing_mode":"stretch_both","title":{"id":"48599"},"toolbar":{"id":"48617"},"toolbar_location":null,"x_range":{"id":"48601"},"x_scale":{"id":"48605"},"y_range":{"id":"48603"},"y_scale":{"id":"48607"}},"id":"48598","subtype":"Figure","type":"Plot"},{"attributes":{"text":"Emissions by Sector"},"id":"48599","type":"Title"},{"attributes":{},"id":"48632","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"48597"},"glyph":{"id":"48620"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"48621"},"selection_glyph":null,"view":{"id":"48623"}},"id":"48622","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"48624"},"ticker":{"id":"48613"}},"id":"48612","type":"LinearAxis"}],"root_ids":["48598"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('48766').textContent;
+                  var render_items = [{"docid":"e8caf915-b696-495c-966c-391383687498","root_ids":["48598"],"roots":{"48598":"c0c8ae54-6a59-4c35-b4e8-6bcad11fdf0c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
