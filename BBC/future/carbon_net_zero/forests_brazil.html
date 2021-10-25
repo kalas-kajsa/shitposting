@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ce14a8f8-100c-4bae-abb6-c6ee477c7c52" data-root-id="28122"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="28284">
+          {"3f8e7811-8bac-4f3f-938c-e3b5eec93ccd":{"roots":{"references":[{"attributes":{},"id":"28131","type":"LinearScale"},{"attributes":{"data_source":{"id":"28166"},"glyph":{"id":"28184"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"28185"},"selection_glyph":null,"view":{"id":"28187"},"y_range_name":"Forest Loss"},"id":"28186","type":"GlyphRenderer"},{"attributes":{"end":2830977.4449739708,"start":465542.9836439405},"id":"28160","type":"Range1d"},{"attributes":{},"id":"28144","type":"SaveTool"},{"attributes":{},"id":"28163","type":"NumeralTickFormatter"},{"attributes":{"axis_label":"Year","formatter":{"id":"28174"},"major_label_orientation":120,"ticker":{"id":"28158"}},"id":"28133","type":"LinearAxis"},{"attributes":{"below":[{"id":"28133"},{"id":"28198"}],"center":[{"id":"28136"},{"id":"28140"},{"id":"28179"}],"extra_y_ranges":{"Forest Loss":{"id":"28160"}},"left":[{"id":"28137"}],"min_border":0,"outline_line_color":null,"renderers":[{"id":"28170"},{"id":"28186"}],"right":[{"id":"28161"}],"sizing_mode":"stretch_both","title":{"id":"28123"},"toolbar":{"id":"28148"},"toolbar_location":null,"x_range":{"id":"28125"},"x_scale":{"id":"28129"},"y_range":{"id":"28127"},"y_scale":{"id":"28131"}},"id":"28122","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"28138","type":"BasicTicker"},{"attributes":{"axis":{"id":"28133"},"ticker":null},"id":"28136","type":"Grid"},{"attributes":{},"id":"28165","type":"NumeralTickFormatter"},{"attributes":{"axis":{"id":"28137"},"dimension":1,"ticker":null},"id":"28140","type":"Grid"},{"attributes":{"label":{"value":"Forest related emissions"},"renderers":[{"id":"28170"}]},"id":"28180","type":"LegendItem"},{"attributes":{},"id":"28176","type":"UnionRenderers"},{"attributes":{},"id":"28175","type":"BasicTicker"},{"attributes":{"items":[{"id":"28180"},{"id":"28195"}]},"id":"28179","type":"Legend"},{"attributes":{},"id":"28146","type":"HelpTool"},{"attributes":{"callback":null,"renderers":[{"id":"28170"}],"tooltips":[["Year","@year"],["Emissions","@all_gasses_mt{0,0} Mt"]]},"id":"28181","type":"HoverTool"},{"attributes":{"axis_label":"Forest related greenhouse gas emissions (millions of tonnes CO2e)","formatter":{"id":"28165"},"ticker":{"id":"28138"}},"id":"28137","type":"LinearAxis"},{"attributes":{"data_source":{"id":"28166"},"glyph":{"id":"28168"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"28169"},"selection_glyph":null,"view":{"id":"28171"}},"id":"28170","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"28147","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#e377c2"},"line_alpha":{"value":0.1},"line_color":{"value":"#e377c2"},"top":{"field":"all_gasses_mt"},"width":{"value":0.7},"x":{"field":"year"}},"id":"28169","type":"VBar"},{"attributes":{},"id":"28141","type":"PanTool"},{"attributes":{},"id":"28145","type":"ResetTool"},{"attributes":{"source":{"id":"28166"}},"id":"28187","type":"CDSView"},{"attributes":{},"id":"28174","type":"BasicTickFormatter"},{"attributes":{},"id":"28142","type":"WheelZoomTool"},{"attributes":{"label":{"value":"Primary forest loss"},"renderers":[{"id":"28186"}]},"id":"28195","type":"LegendItem"},{"attributes":{"overlay":{"id":"28147"}},"id":"28143","type":"BoxZoomTool"},{"attributes":{"text":"Forest related emissions and primary forest loss"},"id":"28123","type":"Title"},{"attributes":{"data":{"all_gasses":{"__ndarray__":"svajKZSN0UFNZSqfrAHYQbgGvodJB9ZBUtAYNcMV3EHgxBHX9g/bQYOyAigOw9VBMOpWgoYT00HgjvtND4jSQQTeDs1bDMxBgbyyMwun1EGyETOZrt7OQQbzvHhHmtZBq0gDZ4xL0EF838kmyUrXQWFni5ZV1dRBgXaJUteh6EEHa+jgDjPkQZeDd9pt4ttBF/GP2pDv2UGntUoOhzndQQ==","dtype":"float64","order":"little","shape":[20]},"all_gasses_mt":{"__ndarray__":"a+YV3dtnkkCmoFbiNCyZQJxOcKM4GZdAUV7YLgNznUCxM/07f2CcQMdc8sSs0ZZAEoPsX78AlEAfK/DZgW6TQNUlnNUmaY1AybKAAN6nlUAMDcoGSC+QQL846n1as5dAKkxygi8WkUDP238cb2yYQBLjTQho2JVAiWP9VCfUqUB/mSFYPy6lQCxBfHkvPZ1AHmTv4RYym0ANEjxD86SeQA==","dtype":"float64","order":"little","shape":[20]},"co2_only":{"__ndarray__":"4QngLpRg0UHTplTaSqvXQbpFJg4GttVB7XLID+eu20FC/JjZBq7aQWfX9Vg9hNVBr/wXXbvV0kESfiKr4FrSQRoF3FgV58tBqJ03wNhu1EE2kYSyy6LOQZAJDd9SaNZBiz+VjXc30EHGZJjzNCrXQYoR5x1hp9RBF1WH9HBe6EESFTQWnvnjQYpj9F19tNtBU031lyaz2UFvyXOB5M/cQQ==","dtype":"float64","order":"little","shape":[20]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],"non_co2":{"__ndarray__":"Dd8kYv1/ZkFr2sM6cZh1QQmVpWjeUHRBWC5mSQm3eUHB9Z9k/3t4Qerm5YRnaG9B7vOSj5LlbkFZyvttUZdmQS6cyhs6o1JB06kfujkZbEFlBIldc/FdQRIk29pM+mhBDxbQbNkUVEGkCEKZGUpgQeSsDVE8+mZBI1vJfZfZgEEHa7JXZbh8Qb8+k0A++GZB9xp1TyE1bkGRlXM1o2h6QQ==","dtype":"float64","order":"little","shape":[20]},"primary_forest_loss":{"__ndarray__":"bVtA7xtqHEEaq4oiBb84QV/LaJcP9zdBRUikKN3EPkGCBJJ3qdY7QcrlQEycmTVB9zvSbnuKMUF/ivKAyWcwQSIYI6ESXiVBDudDTwGYMUEyUQTK0YEoQY03lju4BzFBoQp8AztKI0GntmQt0bYsQTBNpgqMSylBNuj0uECZRUFmoIGgPElAQege3/s8jjRBl6dYccbENEG6tUuKmwA6QQ==","dtype":"float64","order":"little","shape":[20]},"stand_forest":{"__ndarray__":"PaaxP/NGR0DG4Z//pUVkQGVIRobXoWNA9eOkFro0aUBTSbZXKc5mQFNqSGHbsWFAPhV8ujS9XEAb66xk7uBaQNe4vWcVgVFAXgPUqlzTXECtDRFPgxNUQNj15vX25ltAyTrLAMyaT0BWq/sTyoVXQDJGX6TEuFRA87qIXJCxcUBKJDmr4K5qQO67I1fT1mBAXzdIkYADYUB+0SzKF01lQA==","dtype":"float64","order":"little","shape":[20]},"tree_cover_loss":{"__ndarray__":"Lpts+i+1JkHgjt+51xkqQY5j4ZdUoCBBesk0qFKrM0HQB9XI6QoyQaHv8zs+3jVBbmzgSmksNUHa1S9KG041QZfPJSyDrT1BoCl8+WOFM0Fu/yjszI03QW7clkCSPkFB60s0q2JiMUFeqiu62Oc8Qfu924gmpjpB9qyxxJt6QkEwOjtg79gzQSwyHISsmDJBlKzJJDT1MUGWROPiZ1gtQQ==","dtype":"float64","order":"little","shape":[20]},"year":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]},"selected":{"id":"28177"},"selection_policy":{"id":"28176"}},"id":"28166","type":"ColumnDataSource"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"28141"},{"id":"28142"},{"id":"28143"},{"id":"28144"},{"id":"28145"},{"id":"28146"},{"id":"28181"},{"id":"28196"}]},"id":"28148","type":"Toolbar"},{"attributes":{},"id":"28177","type":"Selection"},{"attributes":{"end":2021,"start":2000},"id":"28125","type":"Range1d"},{"attributes":{"source":{"id":"28166"}},"id":"28171","type":"CDSView"},{"attributes":{"fill_color":{"value":"#e377c2"},"line_color":{"value":"#e377c2"},"top":{"field":"all_gasses_mt"},"width":{"value":0.7},"x":{"field":"year"}},"id":"28168","type":"VBar"},{"attributes":{"line_alpha":0.1,"line_color":"#2ca02c","line_width":5,"x":{"field":"year"},"y":{"field":"primary_forest_loss"}},"id":"28185","type":"Line"},{"attributes":{"ticks":[2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]},"id":"28158","type":"FixedTicker"},{"attributes":{"end":4100},"id":"28127","type":"Range1d"},{"attributes":{},"id":"28129","type":"LinearScale"},{"attributes":{"callback":null,"renderers":[{"id":"28186"}],"tooltips":[["Year","@year"],["Primary forest loss","@primary_forest_loss{0,0} ha"]]},"id":"28196","type":"HoverTool"},{"attributes":{"line_color":"#2ca02c","line_width":5,"x":{"field":"year"},"y":{"field":"primary_forest_loss"}},"id":"28184","type":"Line"},{"attributes":{"axis_label":"Forest loss (ha)","formatter":{"id":"28163"},"ticker":{"id":"28175"},"y_range_name":"Forest Loss"},"id":"28161","type":"LinearAxis"},{"attributes":{"text":"Data sources: Global Forest Watch","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"28198","type":"Label"}],"root_ids":["28122"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('28284').textContent;
+                  var render_items = [{"docid":"3f8e7811-8bac-4f3f-938c-e3b5eec93ccd","root_ids":["28122"],"roots":{"28122":"ce14a8f8-100c-4bae-abb6-c6ee477c7c52"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
