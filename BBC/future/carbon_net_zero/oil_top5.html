@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="934857f2-96b0-42e0-b07f-76a41ba97131" data-root-id="100898"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="101139">
+          {"9efcd084-1bde-411d-b9a2-32526019bb51":{"roots":{"references":[{"attributes":{},"id":"100940","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"Million barrels per day","formatter":{"id":"100938"},"ticker":{"id":"100913"}},"id":"100912","type":"LinearAxis"},{"attributes":{"axis":{"id":"100909"},"ticker":null},"id":"100911","type":"Grid"},{"attributes":{},"id":"100905","type":"CategoricalScale"},{"attributes":{"axis":{"id":"100912"},"dimension":1,"ticker":null},"id":"100915","type":"Grid"},{"attributes":{"index":3,"label":{"value":"Canada"},"renderers":[{"id":"100934"}]},"id":"100946","type":"LegendItem"},{"attributes":{},"id":"100910","type":"CategoricalTicker"},{"attributes":{"factors":["United States","Brazil","Iraq","Canada","Saudi Arabia"]},"id":"100901","type":"FactorRange"},{"attributes":{"axis_label":"Country","formatter":{"id":"100940"},"ticker":{"id":"100910"}},"id":"100909","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"100897"},"glyph":{"id":"100932"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"100933"},"selection_glyph":null,"view":{"id":"100935"}},"id":"100934","type":"GlyphRenderer"},{"attributes":{},"id":"100907","type":"LinearScale"},{"attributes":{"callback":null,"renderers":[{"id":"100934"}],"toggleable":false,"tooltips":[["Production growth to 2030","@mbd{0.00} million barrels per day"]]},"id":"100950","type":"HoverTool"},{"attributes":{"items":[{"id":"100945"},{"id":"100946"},{"id":"100947"},{"id":"100948"},{"id":"100949"}],"location":"top_left"},"id":"100944","type":"Legend"},{"attributes":{"text":"Sub","text_font_size":{"value":"10px"},"text_font_style":"italic"},"id":"100930","type":"Title"},{"attributes":{},"id":"100917","type":"WheelZoomTool"},{"attributes":{"text":"Top 5 contributors to global oil growth, 2018-30"},"id":"100899","type":"Title"},{"attributes":{},"id":"100938","type":"BasicTickFormatter"},{"attributes":{},"id":"100916","type":"PanTool"},{"attributes":{},"id":"100920","type":"ResetTool"},{"attributes":{"end":6},"id":"100903","type":"Range1d"},{"attributes":{"above":[{"id":"100930"}],"below":[{"id":"100909"},{"id":"100953"}],"center":[{"id":"100911"},{"id":"100915"},{"id":"100944"}],"left":[{"id":"100912"}],"renderers":[{"id":"100934"}],"sizing_mode":"stretch_both","title":{"id":"100899"},"toolbar":{"id":"100923"},"toolbar_location":null,"x_range":{"id":"100901"},"x_scale":{"id":"100905"},"y_range":{"id":"100903"},"y_scale":{"id":"100907"}},"id":"100898","subtype":"Figure","type":"Plot"},{"attributes":{"index":2,"label":{"value":"Iraq"},"renderers":[{"id":"100934"}]},"id":"100947","type":"LegendItem"},{"attributes":{},"id":"100942","type":"Selection"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"100916"},{"id":"100917"},{"id":"100918"},{"id":"100919"},{"id":"100920"},{"id":"100921"},{"id":"100950"}]},"id":"100923","type":"Toolbar"},{"attributes":{"index":0,"label":{"value":"United States"},"renderers":[{"id":"100934"}]},"id":"100949","type":"LegendItem"},{"attributes":{"data":{"color":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd"],"index":["United States","Brazil","Iraq","Canada","Saudi Arabia"],"level_0":[0,1,2,3,4],"mbd":{"__ndarray__":"H4XrUbgeC0CuR+F6FK73P3sUrkfhevQ/MzMzMzMz4z+amZmZmZnhPw==","dtype":"float64","order":"little","shape":[5]}},"selected":{"id":"100942"},"selection_policy":{"id":"100941"}},"id":"100897","type":"ColumnDataSource"},{"attributes":{},"id":"100941","type":"UnionRenderers"},{"attributes":{},"id":"100919","type":"SaveTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"top":{"field":"mbd"},"width":{"value":0.75},"x":{"field":"index"}},"id":"100933","type":"VBar"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"mbd"},"width":{"value":0.75},"x":{"field":"index"}},"id":"100932","type":"VBar"},{"attributes":{"index":1,"label":{"value":"Brazil"},"renderers":[{"id":"100934"}]},"id":"100945","type":"LegendItem"},{"attributes":{"text":"Data Source: International Energy Agency","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"100953","type":"Label"},{"attributes":{"index":4,"label":{"value":"Saudi Arabia"},"renderers":[{"id":"100934"}]},"id":"100948","type":"LegendItem"},{"attributes":{"source":{"id":"100897"}},"id":"100935","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"100922","type":"BoxAnnotation"},{"attributes":{},"id":"100921","type":"HelpTool"},{"attributes":{"overlay":{"id":"100922"}},"id":"100918","type":"BoxZoomTool"},{"attributes":{},"id":"100913","type":"BasicTicker"}],"root_ids":["100898"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('101139').textContent;
+                  var render_items = [{"docid":"9efcd084-1bde-411d-b9a2-32526019bb51","root_ids":["100898"],"roots":{"100898":"934857f2-96b0-42e0-b07f-76a41ba97131"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
