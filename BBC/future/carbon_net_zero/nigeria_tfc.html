@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="561c6358-c3b3-4525-b369-ca717d824c8f" data-root-id="97893"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="98200">
+          {"19d4d797-667b-44d2-9932-e06977bc4f35":{"roots":{"references":[{"attributes":{},"id":"98036","type":"NumeralTickFormatter"},{"attributes":{"source":{"id":"97892"}},"id":"97988","type":"CDSView"},{"attributes":{"fill_alpha":0.1,"fill_color":"#2ca02c","x":{"field":"Unnamed: 0"},"y1":{"field":"elec_sum"},"y2":{"field":"oil_sum"}},"id":"97972","type":"VArea"},{"attributes":{"callback":null,"renderers":[{"id":"98008"}],"toggleable":false,"tooltips":[["Type","Natural gas"],["Year","@{Unnamed: 0}"],["TWh","@{Natural gas}{0.0 a}"]]},"id":"98010","type":"HoverTool"},{"attributes":{"fill_alpha":0.7,"fill_color":"#2ca02c","x":{"field":"Unnamed: 0"},"y1":{"field":"elec_sum"},"y2":{"field":"oil_sum"}},"id":"97971","type":"VArea"},{"attributes":{"source":{"id":"97892"}},"id":"97995","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"#2ca02c","x":{"field":"Unnamed: 0"},"y":{"field":"oil_sum"}},"id":"97986","type":"Line"},{"attributes":{},"id":"97939","type":"UnionRenderers"},{"attributes":{"fill_alpha":0.1,"fill_color":"#1f77b4","x":{"field":"Unnamed: 0"},"y1":{"field":"gas_sum"},"y2":{"field":"bio_sum"}},"id":"98014","type":"VArea"},{"attributes":{"fill_alpha":0.7,"fill_color":"#ff7f0e","x":{"field":"Unnamed: 0"},"y1":{"value":0},"y2":{"field":"coal_sum"}},"id":"97928","type":"VArea"},{"attributes":{"fill_alpha":0.1,"fill_color":"#d62728","x":{"field":"Unnamed: 0"},"y1":{"field":"coal_sum"},"y2":{"field":"elec_sum"}},"id":"97951","type":"VArea"},{"attributes":{"axis_label":"Annual energy consumption (terrawatt hours*)","formatter":{"id":"98036"},"ticker":{"id":"97909"}},"id":"97908","type":"LinearAxis"},{"attributes":{"source":{"id":"97892"}},"id":"98030","type":"CDSView"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97971"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97972"},"selection_glyph":null,"view":{"id":"97974"}},"id":"97973","type":"GlyphRenderer"},{"attributes":{},"id":"97909","type":"BasicTicker"},{"attributes":{"line_color":"#1f77b4","x":{"field":"Unnamed: 0"},"y":{"field":"bio_sum"}},"id":"98027","type":"Line"},{"attributes":{},"id":"97935","type":"BasicTickFormatter"},{"attributes":{"data":{"Biofuels and waste":{"__ndarray__":"nqMhQ+W6gkAHf9Xl9kuFQNb8nhWNWIhAfv/45tUCjEBePmkkYIiQQEfxG+g0gZJAXLt02oC/k0A=","dtype":"float64","order":"little","shape":[7]},"Coal":{"__ndarray__":"c3yRobLD3D+6k4wlv1jCP+XrGgn45pU/rAkaKjtMrT8BsGzBFmzRP4aq/yBDZdc/t8Zz+4MM2T8=","dtype":"float64","order":"little","shape":[7]},"Electricity":{"__ndarray__":"GLMWjQR8H0D175/0Sd8iQKHW6ZM+SSFA4GPNzMwsMUDjEZDC9ag0QIv/Ad+8CjlA43MNlR1GO0A=","dtype":"float64","order":"little","shape":[7]},"Natural gas":{"__ndarray__":"xqTwzaupIEDpDnh3dzchQCliWBPPiiZA0adLfrFcQEDZtXo18SwsQA3FfPNq4kVAsxcUz4rWRUA=","dtype":"float64","order":"little","shape":[7]},"Oil products":{"__ndarray__":"6IU5juN0UkDDur55NflUQG6KP+mTBlxAkOTAN6+0YUA79hPPighiQAiZBluwc2pAM7AOdNoebkA=","dtype":"float64","order":"little","shape":[7]},"Unnamed: 0":[1990,1995,2000,2005,2010,2015,2019],"bio_sum":{"__ndarray__":"g/aO47iOhUAkD7AmnnyIQD0JVJfbeIxAU4MQMtT/kECkCS35hVWTQIrCxpJf5JZALB8DvrmgmEA=","dtype":"float64","order":"little","shape":[7]},"coal_sum":{"__ndarray__":"c3yRobLD3D+6k4wlv1jCP+XrGgn45pU/rAkaKjtMrT8BsGzBFmzRP4aq/yBDZdc/t8Zz+4MM2T8=","dtype":"float64","order":"little","shape":[7]},"elec_sum":{"__ndarray__":"b+WX2x+kIEBEIjbxrCgjQBdk7g8yVCFA5XBi6nI7MUCjxJUdpu40QDX+hetRaDlA/kL7pE+qO0A=","dtype":"float64","order":"little","shape":[7]},"gas_sum":{"__ndarray__":"LpdqA52eVkDpgNQGOoVZQJsx1AY6gWBAoRyg9EnzZ0AuWh6mLmlmQAlFq6qqjHFAQI85juOEc0A=","dtype":"float64","order":"little","shape":[7]},"oil_sum":{"__ndarray__":"lYKsiWeJVEALf+UXS15XQPBWPSsaMV5ArDINlR3cY0DQrsaSX6ZkQM5Yd5i6oG1ASQxXNBLKcEA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"97938"},"selection_policy":{"id":"97939"}},"id":"97892","type":"ColumnDataSource"},{"attributes":{"fill_alpha":0.1,"fill_color":"#9467bd","x":{"field":"Unnamed: 0"},"y1":{"field":"oil_sum"},"y2":{"field":"gas_sum"}},"id":"97993","type":"VArea"},{"attributes":{},"id":"97912","type":"PanTool"},{"attributes":{"fill_alpha":0.7,"fill_color":"#d62728","x":{"field":"Unnamed: 0"},"y1":{"field":"coal_sum"},"y2":{"field":"elec_sum"}},"id":"97950","type":"VArea"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"98027"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"98028"},"selection_glyph":null,"view":{"id":"98030"}},"id":"98029","type":"GlyphRenderer"},{"attributes":{"text":"*A terawatt-hour is a unit of energy equal to outputting one trillion watts for one hour","text_font_size":"7pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"98034","type":"Label"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97985"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97986"},"selection_glyph":null,"view":{"id":"97988"}},"id":"97987","type":"GlyphRenderer"},{"attributes":{"callback":null,"renderers":[{"id":"97987"}],"toggleable":false,"tooltips":[["Type","Oil products"],["Year","@{Unnamed: 0}"],["TWh","@{Oil products}{0.0 a}"]]},"id":"97989","type":"HoverTool"},{"attributes":{"callback":null,"renderers":[{"id":"97966"}],"toggleable":false,"tooltips":[["Type","Electricity"],["Year","@{Unnamed: 0}"],["TWh","@Electricity{0.0 a}"]]},"id":"97968","type":"HoverTool"},{"attributes":{"source":{"id":"97892"}},"id":"97967","type":"CDSView"},{"attributes":{"callback":null,"renderers":[{"id":"97945"}],"toggleable":false,"tooltips":[["Type","Coal"],["Year","@{Unnamed: 0}"],["TWh","@Coal{0.0 a}"]]},"id":"97947","type":"HoverTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","x":{"field":"Unnamed: 0"},"y":{"field":"bio_sum"}},"id":"98028","type":"Line"},{"attributes":{},"id":"97902","type":"LinearScale"},{"attributes":{"text":"Data Source: International Energy Agency -","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"98033","type":"Label"},{"attributes":{},"id":"97938","type":"Selection"},{"attributes":{"fill_alpha":0.7,"fill_color":"#1f77b4","x":{"field":"Unnamed: 0"},"y1":{"field":"gas_sum"},"y2":{"field":"bio_sum"}},"id":"98013","type":"VArea"},{"attributes":{"end":2019,"start":1990},"id":"97896","type":"Range1d"},{"attributes":{},"id":"97905","type":"BasicTicker"},{"attributes":{"axis_label":"Year","formatter":{"id":"97935"},"major_label_orientation":120,"ticker":{"id":"97905"}},"id":"97904","type":"LinearAxis"},{"attributes":{"axis":{"id":"97904"},"ticker":null},"id":"97907","type":"Grid"},{"attributes":{"line_color":"#9467bd","x":{"field":"Unnamed: 0"},"y":{"field":"gas_sum"}},"id":"98006","type":"Line"},{"attributes":{},"id":"97900","type":"LinearScale"},{"attributes":{"above":[{"id":"97926"}],"below":[{"id":"97904"},{"id":"98033"},{"id":"98034"}],"center":[{"id":"97907"},{"id":"97911"},{"id":"97940"}],"left":[{"id":"97908"}],"renderers":[{"id":"97930"},{"id":"97945"},{"id":"97952"},{"id":"97966"},{"id":"97973"},{"id":"97987"},{"id":"97994"},{"id":"98008"},{"id":"98015"},{"id":"98029"}],"sizing_mode":"stretch_both","title":{"id":"97894"},"toolbar":{"id":"97919"},"toolbar_location":null,"x_range":{"id":"97896"},"x_scale":{"id":"97900"},"y_range":{"id":"97898"},"y_scale":{"id":"97902"}},"id":"97893","subtype":"Figure","type":"Plot"},{"attributes":{"line_color":"#ff7f0e","x":{"field":"Unnamed: 0"},"y":{"field":"coal_sum"}},"id":"97943","type":"Line"},{"attributes":{"source":{"id":"97892"}},"id":"97974","type":"CDSView"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97950"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97951"},"selection_glyph":null,"view":{"id":"97953"}},"id":"97952","type":"GlyphRenderer"},{"attributes":{"text":"..."},"id":"97894","type":"Title"},{"attributes":{"line_color":"#d62728","x":{"field":"Unnamed: 0"},"y":{"field":"elec_sum"}},"id":"97964","type":"Line"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97992"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97993"},"selection_glyph":null,"view":{"id":"97995"}},"id":"97994","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Oil products"},"renderers":[{"id":"97973"}]},"id":"97983","type":"LegendItem"},{"attributes":{"fill_alpha":0.7,"fill_color":"#9467bd","x":{"field":"Unnamed: 0"},"y1":{"field":"oil_sum"},"y2":{"field":"gas_sum"}},"id":"97992","type":"VArea"},{"attributes":{"fill_alpha":0.1,"fill_color":"#ff7f0e","x":{"field":"Unnamed: 0"},"y1":{"value":0},"y2":{"field":"coal_sum"}},"id":"97929","type":"VArea"},{"attributes":{"line_color":"#2ca02c","x":{"field":"Unnamed: 0"},"y":{"field":"oil_sum"}},"id":"97985","type":"Line"},{"attributes":{"callback":null,"renderers":[{"id":"98029"}],"toggleable":false,"tooltips":[["Type","Biofuels and waste"],["Year","@{Unnamed: 0}"],["TWh","@{Biofuels and waste}{0.0 a}"]]},"id":"98031","type":"HoverTool"},{"attributes":{"label":{"value":"Natural gas"},"renderers":[{"id":"97994"}]},"id":"98004","type":"LegendItem"},{"attributes":{"text":"Total final energy consumption by source","text_font_size":{"value":"10px"},"text_font_style":"italic"},"id":"97926","type":"Title"},{"attributes":{"items":[{"id":"97941"},{"id":"97962"},{"id":"97983"},{"id":"98004"},{"id":"98025"}],"location":"top_left"},"id":"97940","type":"Legend"},{"attributes":{"source":{"id":"97892"}},"id":"97953","type":"CDSView"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97964"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97965"},"selection_glyph":null,"view":{"id":"97967"}},"id":"97966","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Coal"},"renderers":[{"id":"97930"}]},"id":"97941","type":"LegendItem"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97943"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97944"},"selection_glyph":null,"view":{"id":"97946"}},"id":"97945","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#d62728","x":{"field":"Unnamed: 0"},"y":{"field":"elec_sum"}},"id":"97965","type":"Line"},{"attributes":{"label":{"value":"Electricity"},"renderers":[{"id":"97952"}]},"id":"97962","type":"LegendItem"},{"attributes":{"line_alpha":0.1,"line_color":"#9467bd","x":{"field":"Unnamed: 0"},"y":{"field":"gas_sum"}},"id":"98007","type":"Line"},{"attributes":{},"id":"97915","type":"SaveTool"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"98006"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"98007"},"selection_glyph":null,"view":{"id":"98009"}},"id":"98008","type":"GlyphRenderer"},{"attributes":{},"id":"97913","type":"WheelZoomTool"},{"attributes":{"axis":{"id":"97908"},"dimension":1,"ticker":null},"id":"97911","type":"Grid"},{"attributes":{"source":{"id":"97892"}},"id":"98016","type":"CDSView"},{"attributes":{"end":2000},"id":"97898","type":"Range1d"},{"attributes":{"line_alpha":0.1,"line_color":"#ff7f0e","x":{"field":"Unnamed: 0"},"y":{"field":"coal_sum"}},"id":"97944","type":"Line"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"98013"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"98014"},"selection_glyph":null,"view":{"id":"98016"}},"id":"98015","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"97918","type":"BoxAnnotation"},{"attributes":{"overlay":{"id":"97918"}},"id":"97914","type":"BoxZoomTool"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"97912"},{"id":"97913"},{"id":"97914"},{"id":"97915"},{"id":"97916"},{"id":"97917"},{"id":"97947"},{"id":"97968"},{"id":"97989"},{"id":"98010"},{"id":"98031"}]},"id":"97919","type":"Toolbar"},{"attributes":{"source":{"id":"97892"}},"id":"98009","type":"CDSView"},{"attributes":{"source":{"id":"97892"}},"id":"97946","type":"CDSView"},{"attributes":{"data_source":{"id":"97892"},"glyph":{"id":"97928"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"97929"},"selection_glyph":null,"view":{"id":"97931"}},"id":"97930","type":"GlyphRenderer"},{"attributes":{"source":{"id":"97892"}},"id":"97931","type":"CDSView"},{"attributes":{"label":{"value":"Biofuels and waste"},"renderers":[{"id":"98015"}]},"id":"98025","type":"LegendItem"},{"attributes":{},"id":"97917","type":"HelpTool"},{"attributes":{},"id":"97916","type":"ResetTool"}],"root_ids":["97893"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('98200').textContent;
+                  var render_items = [{"docid":"19d4d797-667b-44d2-9932-e06977bc4f35","root_ids":["97893"],"roots":{"97893":"561c6358-c3b3-4525-b369-ca717d824c8f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
