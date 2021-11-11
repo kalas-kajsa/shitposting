@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="9a66bd81-4452-45a2-b886-4525aa5f74e0" data-root-id="108327"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="108552">
+          {"128b64d1-89eb-4b9d-86d4-e5a327d248b5":{"roots":{"references":[{"attributes":{"text":"Data Source: BP Statistical Review of World Energy 2021","text_font_size":"8pt","text_font_style":"italic","x":0,"x_units":"screen","y":0,"y_units":"screen"},"id":"108389","type":"Label"},{"attributes":{},"id":"108350","type":"HelpTool"},{"attributes":{"axis_label":"Country","formatter":{"id":"108368"},"major_label_orientation":120,"ticker":{"id":"108339"}},"id":"108338","type":"CategoricalAxis"},{"attributes":{},"id":"108368","type":"CategoricalTickFormatter"},{"attributes":{"index":1,"label":{"value":"Saudi Arabia"},"renderers":[{"id":"108363"}]},"id":"108381","type":"LegendItem"},{"attributes":{"source":{"id":"108326"}},"id":"108364","type":"CDSView"},{"attributes":{"data_source":{"id":"108326"},"glyph":{"id":"108361"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"108362"},"selection_glyph":null,"view":{"id":"108364"}},"id":"108363","type":"GlyphRenderer"},{"attributes":{"factors":["US","Saudi Arabia","Russian Federation","Canada","Iraq","China","United Arab Emirates","Iran","Brazil","Kuwait"]},"id":"108330","type":"FactorRange"},{"attributes":{"index":7,"label":{"value":"Iran"},"renderers":[{"id":"108363"}]},"id":"108377","type":"LegendItem"},{"attributes":{"axis":{"id":"108341"},"dimension":1,"ticker":null},"id":"108344","type":"Grid"},{"attributes":{"items":[{"id":"108374"},{"id":"108375"},{"id":"108376"},{"id":"108377"},{"id":"108378"},{"id":"108379"},{"id":"108380"},{"id":"108381"},{"id":"108382"},{"id":"108383"}]},"id":"108373","type":"Legend"},{"attributes":{},"id":"108346","type":"WheelZoomTool"},{"attributes":{"index":0,"label":{"value":"US"},"renderers":[{"id":"108363"}]},"id":"108382","type":"LegendItem"},{"attributes":{"end":20},"id":"108332","type":"Range1d"},{"attributes":{"above":[{"id":"108359"}],"below":[{"id":"108338"},{"id":"108389"}],"center":[{"id":"108340"},{"id":"108344"},{"id":"108373"}],"left":[{"id":"108341"}],"renderers":[{"id":"108363"}],"sizing_mode":"stretch_both","title":{"id":"108328"},"toolbar":{"id":"108352"},"toolbar_location":null,"x_range":{"id":"108330"},"x_scale":{"id":"108334"},"y_range":{"id":"108332"},"y_scale":{"id":"108336"}},"id":"108327","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"Million barrels per day","formatter":{"id":"108386"},"ticker":{"id":"108342"}},"id":"108341","type":"LinearAxis"},{"attributes":{"callback":null,"renderers":[{"id":"108363"}],"toggleable":false,"tooltips":[["Oil production","@mil{0.0} million barrels per day"]]},"id":"108384","type":"HoverTool"},{"attributes":{"index":2,"label":{"value":"Russian Federation"},"renderers":[{"id":"108363"}]},"id":"108380","type":"LegendItem"},{"attributes":{"index":3,"label":{"value":"Canada"},"renderers":[{"id":"108363"}]},"id":"108375","type":"LegendItem"},{"attributes":{"text":"Russia was the third biggest oil producer in 2020"},"id":"108328","type":"Title"},{"attributes":{"text":"Top ten global oil producers in 2020","text_font_size":{"value":"10px"},"text_font_style":"italic"},"id":"108359","type":"Title"},{"attributes":{},"id":"108349","type":"ResetTool"},{"attributes":{},"id":"108336","type":"LinearScale"},{"attributes":{"overlay":{"id":"108351"}},"id":"108347","type":"BoxZoomTool"},{"attributes":{},"id":"108334","type":"CategoricalScale"},{"attributes":{"data":{"c":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"],"country":["US","Saudi Arabia","Russian Federation","Canada","Iraq","China","United Arab Emirates","Iran","Brazil","Kuwait"],"index":[3,5,6,10,11,12,13,15,16,17],"mil":{"__ndarray__":"YOXQItt5MECHFtnO9xMmQC/dJAaBVSVACtejcD2KFEDb+X5qvHQQQGiR7Xw/NQ9AqMZLN4lBDUB56SYxCKwIQGiR7Xw/NQhAsHJoke18BUA=","dtype":"float64","order":"little","shape":[10]},"production":{"__ndarray__":"AAAAAOxsb0EAAAAAIw5lQQAAAAB/WGRBAAAAAKaWU0EAAAAAKGNPQQAAAAAkw01BAAAAAJTmS0EAAAAAcIdHQQAAAAAoFkdBAAAAABh+REE=","dtype":"float64","order":"little","shape":[10]}},"selected":{"id":"108371"},"selection_policy":{"id":"108372"}},"id":"108326","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"108338"},"ticker":null},"id":"108340","type":"Grid"},{"attributes":{"index":4,"label":{"value":"Iraq"},"renderers":[{"id":"108363"}]},"id":"108378","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"c"},"line_alpha":{"value":0.1},"line_color":{"field":"c"},"top":{"field":"mil"},"width":{"value":0.75},"x":{"field":"country"}},"id":"108362","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"108351","type":"BoxAnnotation"},{"attributes":{"index":9,"label":{"value":"Kuwait"},"renderers":[{"id":"108363"}]},"id":"108379","type":"LegendItem"},{"attributes":{"fill_color":{"field":"c"},"line_color":{"field":"c"},"top":{"field":"mil"},"width":{"value":0.75},"x":{"field":"country"}},"id":"108361","type":"VBar"},{"attributes":{},"id":"108372","type":"UnionRenderers"},{"attributes":{"index":5,"label":{"value":"China"},"renderers":[{"id":"108363"}]},"id":"108376","type":"LegendItem"},{"attributes":{},"id":"108386","type":"NumeralTickFormatter"},{"attributes":{"index":6,"label":{"value":"United Arab Emirates"},"renderers":[{"id":"108363"}]},"id":"108383","type":"LegendItem"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"108345"},{"id":"108346"},{"id":"108347"},{"id":"108348"},{"id":"108349"},{"id":"108350"},{"id":"108384"}]},"id":"108352","type":"Toolbar"},{"attributes":{},"id":"108339","type":"CategoricalTicker"},{"attributes":{},"id":"108371","type":"Selection"},{"attributes":{},"id":"108348","type":"SaveTool"},{"attributes":{},"id":"108345","type":"PanTool"},{"attributes":{},"id":"108342","type":"BasicTicker"},{"attributes":{"index":8,"label":{"value":"Brazil"},"renderers":[{"id":"108363"}]},"id":"108374","type":"LegendItem"}],"root_ids":["108327"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('108552').textContent;
+                  var render_items = [{"docid":"128b64d1-89eb-4b9d-86d4-e5a327d248b5","root_ids":["108327"],"roots":{"108327":"9a66bd81-4452-45a2-b886-4525aa5f74e0"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
