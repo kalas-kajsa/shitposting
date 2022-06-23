@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="63c70061-8cdd-4a56-9a49-e55d804d8677" data-root-id="10800"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="11042">
+          {"e3b4fb40-48e4-4ba7-9ed4-67d5fb95ae87":{"defs":[],"roots":{"references":[{"attributes":{"format":"%0.0f %%"},"id":"10839","type":"PrintfTickFormatter"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"field":"color"},"hatch_alpha":{"value":0.8},"hatch_color":{"field":"color"},"height":{"value":0.9},"line_alpha":{"value":0.8},"right":{"field":"counts"},"y":{"field":"xs"}},"id":"10824","type":"HBar"},{"attributes":{"data":{"color":["#73a89a","#004337","#a7c7d7","#ba7384","#68838b","#193c96","#641e3c","#0f283c","#e13c32"],"counts":[7,4,4,7,10,10,10,12,15],"xs":["Andre brancher","Industri, forsyning mv.","Sundhed, undervisning mv.","Kommunikation, IT mv.","Bygge og anl\u00e6g","Detail og engros","Bank, forsikring mv.","Kultur og turisme","Transport og service"]},"selected":{"id":"10836"},"selection_policy":{"id":"10835"}},"id":"10799","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"color"},"hatch_alpha":{"value":0.2},"hatch_color":{"field":"color"},"height":{"value":0.9},"line_alpha":{"value":0.2},"line_color":{"field":"color"},"right":{"field":"counts"},"y":{"field":"xs"}},"id":"10825","type":"HBar"},{"attributes":{},"id":"10830","type":"CategoricalTickFormatter"},{"attributes":{"coordinates":null,"data_source":{"id":"10799"},"glyph":{"id":"10822"},"group":null,"hover_glyph":{"id":"10824"},"muted_glyph":{"id":"10825"},"nonselection_glyph":{"id":"10823"},"view":{"id":"10827"}},"id":"10826","type":"GlyphRenderer"},{"attributes":{"callback":null,"tooltips":[["Andel","@counts{f}%"]]},"id":"10818","type":"HoverTool"},{"attributes":{"fill_color":{"field":"color"},"hatch_color":{"field":"color"},"height":{"value":0.9},"line_color":{"field":"color"},"right":{"field":"counts"},"y":{"field":"xs"}},"id":"10822","type":"HBar"},{"attributes":{"below":[{"id":"10811"}],"center":[{"id":"10814"},{"id":"10817"},{"id":"10837"}],"left":[{"id":"10815"}],"renderers":[{"id":"10826"}],"sizing_mode":"stretch_both","title":{"id":"10801"},"toolbar":{"id":"10819"},"toolbar_location":null,"x_range":{"id":"10803"},"x_scale":{"id":"10807"},"y_range":{"id":"10805"},"y_scale":{"id":"10809"}},"id":"10800","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"formatter":{"id":"10830"},"group":null,"major_label_policy":{"id":"10831"},"major_label_text_font":"arial","ticker":{"id":"10816"}},"id":"10815","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"10811"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"10814","type":"Grid"},{"attributes":{"end":20},"id":"10803","type":"Range1d"},{"attributes":{},"id":"10816","type":"CategoricalTicker"},{"attributes":{},"id":"10831","type":"AllLabels"},{"attributes":{"axis":{"id":"10815"},"coordinates":null,"dimension":1,"grid_line_color":null,"group":null,"ticker":null},"id":"10817","type":"Grid"},{"attributes":{"coordinates":null,"group":null,"text":"Udbredelse af digital chikane p\u00e5 tv\u00e6rs af brancher","text_font":"arial"},"id":"10801","type":"Title"},{"attributes":{},"id":"10807","type":"LinearScale"},{"attributes":{},"id":"10809","type":"CategoricalScale"},{"attributes":{},"id":"10836","type":"Selection"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"10838"}],"label_text_font":"arial"},"id":"10837","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"hatch_alpha":{"value":0.1},"hatch_color":{"field":"color"},"height":{"value":0.9},"line_alpha":{"value":0.1},"line_color":{"field":"color"},"right":{"field":"counts"},"y":{"field":"xs"}},"id":"10823","type":"HBar"},{"attributes":{"coordinates":null,"formatter":{"id":"10839"},"group":null,"major_label_policy":{"id":"10834"},"major_label_text_font":"arial","ticker":{"id":"10812"}},"id":"10811","type":"LinearAxis"},{"attributes":{},"id":"10835","type":"UnionRenderers"},{"attributes":{"factors":["Andre brancher","Industri, forsyning mv.","Sundhed, undervisning mv.","Kommunikation, IT mv.","Bygge og anl\u00e6g","Detail og engros","Bank, forsikring mv.","Kultur og turisme","Transport og service"]},"id":"10805","type":"FactorRange"},{"attributes":{},"id":"10834","type":"AllLabels"},{"attributes":{},"id":"10812","type":"BasicTicker"},{"attributes":{"tools":[{"id":"10818"}]},"id":"10819","type":"Toolbar"},{"attributes":{"label":{"field":"xs"},"renderers":[{"id":"10826"}]},"id":"10838","type":"LegendItem"},{"attributes":{"source":{"id":"10799"}},"id":"10827","type":"CDSView"}],"root_ids":["10800"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('11042').textContent;
+                  const render_items = [{"docid":"e3b4fb40-48e4-4ba7-9ed4-67d5fb95ae87","root_ids":["10800"],"roots":{"10800":"63c70061-8cdd-4a56-9a49-e55d804d8677"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
